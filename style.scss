@@ -117,7 +117,7 @@ img {
 
 .date {
   font-style: italic;
-  font-size: small;
+  font-size: 12px;
   color: $gray;
 }
 
@@ -279,7 +279,7 @@ nav {
 
   .tags {
     text-align: left;
-    background-color: #dddddd;
+    background-color: $lightGray;
     font-size: 15px;
     margin-top: 20px;
   }
@@ -307,12 +307,12 @@ footer {
   text-align: center;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #e1e1e1;
+  border: 1px solid $lightGray;
   background: #fff;
 }
 
 .blog-box .bottom {
-  color: #d9167e;
+  color: $helveticaNeue;
   font-size: 12px;
   margin-bottom: 0;
   width: 100%;

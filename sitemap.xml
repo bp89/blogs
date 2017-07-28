@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://blogs.faadudeveloper.com/</loc>
+  <lastmod>2017-07-28T19:22:34+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://blogs.faadudeveloper.com/about/</loc>
+  <lastmod>2017-07-28T19:22:34+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://blogs.faadudeveloper.com/using-definitions-json-schema/</loc>
+  <lastmod>2017-07-28T19:22:34+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://blogs.faadudeveloper.com/springboot-using-cli/</loc>
+  <lastmod>2017-07-28T19:22:34+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://blogs.faadudeveloper.com/grails-non-persistent-domains/</loc>
+  <lastmod>2017-07-28T19:22:34+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://blogs.faadudeveloper.com/functional-interfaces/</loc>
+  <lastmod>2017-07-28T19:22:34+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://blogs.faadudeveloper.com/fp-lambda-expressions/</loc>
+  <lastmod>2017-07-28T19:22:34+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://blogs.faadudeveloper.com/fi-api-generic-fi/</loc>
+  <lastmod>2017-07-28T19:22:34+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://blogs.faadudeveloper.com/dependencies-json-schema/</loc>
+  <lastmod>2017-07-28T19:22:34+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://blogs.faadudeveloper.com/compile-groovy-statically/</loc>
+  <lastmod>2017-07-28T19:22:34+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://blogs.faadudeveloper.com/Type-Inference-java8/</loc>
+  <lastmod>2017-07-28T19:22:34+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://blogs.faadudeveloper.com/Hello-World/</loc>
+  <lastmod>2017-07-28T19:22:34+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>

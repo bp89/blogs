@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Quick start with Springboot using CLI'
-tags : java , Spring Boot, Type Inference
+tag : java , Spring Boot, Type Inference
 ---
 
 SpringBoot is one of the main projects of Spring community which takes opinionated view of production ready applications. It helps you getting up and running a production grade spring application.

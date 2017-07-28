@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Compiling groovy code statically
-tags:  GROOVY
+tag:  GROOVY
 ---
 
 Groovy by default uses dynamic dispatch. Dynamic Dispatch could be defined as the capability of adding or replacing units of code at run time. For example, we can change the definition of a method or we can add new methods to a class at run time using metaprogramming in Groovy.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making a domain non-persistent
-tags: Groovy, GORM, Grails, MapWith
+tag: Groovy, GORM, Grails, MapWith
 ---
 
 In grails app, there might come scenarios where one need to create a non-persistent domain rather than creating a command obejct or POJO / POGO.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Generic Functional Interfaces and Functional Interface API for Lambda Expressions: Java 8'
-tags: Java 8, Functional Programming, Generic Functional Interfaces, Functional Interface API
+tag: Java 8, Functional Programming, Generic Functional Interfaces, Functional Interface API
 ---
 
 Lambda expressions come with a standard rule that they can only be assigned to a reference variable which is a Functional Interface i.e. an interface having one and only one abstract method.

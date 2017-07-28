@@ -10,12 +10,17 @@ layout: default
     </div>
 
     <div>
-   <span class="date">
-    {{ page.date | date: "%B %e, %Y" }}
-   </span>
-        <em>
+       <span class="date">
+        {{ page.date | date: "%B %e, %Y" }}
+            <em>
             By <a href="{{ site.baseurl }}/about"> Vinay Prajapati</a>
         </em>
+       </span>
+
+    </div>
+
+    <div class="tags">
+        <strong>Tag:</strong> {{page.tag}}
     </div>
 
     {% include disqus.html %}

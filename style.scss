@@ -14,7 +14,7 @@
 /**************/
 
 html {
-  //font-size: 100%;
+  font-size: 100%;
 }
 
 body {
@@ -71,7 +71,7 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
     color: $blue;
   }
@@ -117,6 +117,7 @@ img {
 
 .date {
   font-style: italic;
+  font-size: small;
   color: $gray;
 }
 
@@ -125,6 +126,7 @@ img {
   color: $black;
   background: $lightGray;
 }
+
 ::selection {
   color: $black;
   background: $lightGray;
@@ -134,12 +136,12 @@ img {
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*********************/
@@ -240,6 +242,10 @@ nav {
 //
 // .main
 //
+.entry {
+    font-size: 12px;
+    text-align: left;
+}
 
 .posts > .post {
   padding-bottom: 2em;
@@ -267,7 +273,18 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
+    text-align: right;
+    font-size: 15px;
+  }
+
+  .tags {
+    text-align: left;
+    background-color: #dddddd;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .entry {
     font-size: 15px;
   }
 }
@@ -288,3 +305,30 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+.blue-box {
+  text-align: left;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+}
+
+.blog-box .bottom {
+  color: #d9167e;
+  font-size: 12px;
+  margin-bottom: 0;
+  width: 100%;
+  line-height: 31px;
+  text-align: left;
+}
+
+.left-content {
+  padding: 0 0 90px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 90px;
+  padding-left: 0px;
+  float: left;
+}

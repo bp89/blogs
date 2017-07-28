@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Using “dependencies” in json schema (version : draft-v4)'
-tags:  Json Schema
+tag:  Json Schema
 ---
 
 Json Schema has another interesting feature which allows value of some property of json schema to depend upon other fields value. This could be done using “dependencies” which allows specifying dependent object / property on the basis of value of the field which is using dependencies keyword.

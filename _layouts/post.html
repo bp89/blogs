@@ -3,15 +3,20 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
 
-  <div class="entry">
-    {{ content }}
-  </div>
+    <div class="entry">
+        {{ content }}
+    </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
+    <div>
+   <span class="date">
+    {{ page.date | date: "%B %e, %Y" }}
+   </span>
+        <em>
+            By <a href="{{ site.baseurl }}/about"> Vinay Prajapati</a>
+        </em>
+    </div>
 
-  {% include disqus.html %}
+    {% include disqus.html %}
 </article>

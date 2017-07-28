@@ -1,7 +1,10 @@
 ---
 layout: post
-title: You're up and running!
+title: It's so easy to work with Jekyll!
 ---
+
+
+Hurray! I created my blog website in only 2 minutes. Jekyll made it so easy. Simple markdown scripts makes writing the blogs even easier especially technical blogs.
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 

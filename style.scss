@@ -23,6 +23,23 @@ body {
   color: $darkGray;
 }
 
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 3px;
+  width: 100%;
+  font-family: 'Bitstream Vera Sans Mono', 'Courier', monospace;
+
+  tr:hover {
+    background-color: beige;
+  }
+
+  td {
+    border-bottom: 1px groove;
+  }
+
+}
+
 .container {
   margin: 0 auto;
   max-width: 850px;
@@ -243,8 +260,8 @@ nav {
 // .main
 //
 .entry {
-    font-size: 12px;
-    text-align: left;
+  font-size: 12px;
+  text-align: left;
 }
 
 .posts > .post {
@@ -277,8 +294,6 @@ nav {
     margin-top: 10px;
   }
 
-
-
   .tags {
     text-align: left;
     background-color: #dddddd;
@@ -302,7 +317,6 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
-
 
 .blue-box {
   text-align: left;
@@ -334,8 +348,11 @@ footer {
   padding-left: 0px;
   float: left;
 }
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
 
+//@import "bootstrap-sprockets";
+//@import "bootstrap";

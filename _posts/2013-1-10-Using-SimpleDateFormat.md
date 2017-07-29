@@ -25,5 +25,3 @@ Below are some of the formats you can use.
 | EEE, d MMM yyyy HH:mm:ss Z		| Wed, 4 Jul 2001 12:08:56 -0700		|
 | yyMMddHHmmssZ						| 010704120856-0700	 	 				|
 | yyyy-MM-dd'T'HH:mm:ss.SSSZ		| 2001-07-04T12:08:56.235-0700			|
-
-{% feed_meta %}

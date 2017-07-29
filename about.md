@@ -18,5 +18,3 @@ A place to include any other types of information that you'd like to include abo
 
 [vinayprajapati107@gmail.com](mailto:vinayprajapati107@gmail.com)
 +91-9654532022
-
-{% seo %}

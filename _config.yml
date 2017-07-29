@@ -88,4 +88,8 @@ exclude:
   - README.md
   - CNAME
 
+algolia:
+  application_id: 'XS7F2L7PZP'
+  index_name:     'faadudeveloper'
+
 #theme: jekyll-theme-merlot

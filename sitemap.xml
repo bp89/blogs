@@ -71,4 +71,16 @@
     <lastmod>2017-07-29T06:12:59+00:00</lastmod>
     <changefreq>always</changefreq>
   </url>
+
+  <url>
+    <loc>http://blogs.faadudeveloper.com/operators-in-groovy/</loc>
+    <lastmod>2017-07-29T06:12:59+00:00</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+
+  <url>
+    <loc>http://blogs.faadudeveloper.com/spread-operator/</loc>
+    <lastmod>2017-07-29T06:12:59+00:00</lastmod>
+    <changefreq>always</changefreq>
+  </url>
 </urlset>

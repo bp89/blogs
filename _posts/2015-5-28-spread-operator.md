@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Spread Operator in groovy
-tag:  GROOVY, Spread Operator
+tag:  Groovy, Spread Operator, operators
+comments: true
 ---
 
 The Spread Operator is used to invoke an action on all items of an aggregate object. 

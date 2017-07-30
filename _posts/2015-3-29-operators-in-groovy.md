@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Groovy shorthand operators
-tag: groovy
+tag: groovy, operators, shorthand operators
+comments: true
 ---
 
 Every language have shorthand operators that allows multi line operations to be performed in single line. For example ?: is a ternary operator used in scenarios where condition and  the code inside condition is very small and specific to comparison operands.

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Functional Programming in Java 8 Using Lambda Expressions
-tag: Java 8
+tag: Java 8, Lambda Calculas, Lambda Expressions, Functional Programming
+comments: true
 ---
 
 

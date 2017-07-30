@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 'Type Inference in Lambda Expressions : Java 8'
-tag : 'java 8, Lambda Expressions, Type Inference'
+tag : 'Java 8, Lambda Expressions, Type Inference '
+comments: true
 ---
 
 Type Inference means that the data type of any expression (e.g. method return type or parameter type) can be deduced automatically by the compiler. Groovy language is a good example of programming languages supporting Type Inference.

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 'Using definitions internal to json schema and external to json schema (version – draft -04)'
-tag:  Json Schema
+tag:  Json Schema, json
+comments: true
 ---
 
 There could be times when you end with a generously large schema with lots of redundant properties due to certain business requirements.

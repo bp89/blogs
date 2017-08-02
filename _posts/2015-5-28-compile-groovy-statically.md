@@ -18,8 +18,8 @@ Adding annotation @groovy.transform.CompileStatic will allow code to be compiled
  2. def wont work in cases where there is a non matching type assigned like in example below
  3. Every variable would be checked for its declaration at compile time and not at run time like it was happening in regular Groovy code
  
- import groovy.transform.CompileStatic
-  
+     import groovy.transform.CompileStatic
+	
 	 @CompileStatic
 	 class Test{
 		 def test(){
@@ -41,8 +41,7 @@ If we run code above in say groovyConsole, it will throw compile time errors at 
 
 There might come a scenario where you only need to statically compile a method only e.g. run method of your thread (we don’t want it to fail at runtime to be rest assured). To fulfill such requirements, we may try code below
 
-import groovy.transform.CompileStatic
- 
+	import groovy.transform.CompileStatic
 	class Test{
 		def test(){
 		   def name = ["test":"test2"]
@@ -57,14 +56,13 @@ import groovy.transform.CompileStatic
 		   //it will throw compile time errors
 		}
 	}
-	 
 	println "Code in this file is statically compiled"
 
 We can observe by running the code that the error is now thrown only for test1 method and not for test method.
 Finally, there might come a scenario asking for excluding very few methods of a class from static dispatch.
 
-import groovy.transform.CompileStatic
-import groovy.transform.TypeCheckingMode
+	import groovy.transform.CompileStatic
+	import groovy.transform.TypeCheckingMode
  
 	@CompileStatic
 	class Test{

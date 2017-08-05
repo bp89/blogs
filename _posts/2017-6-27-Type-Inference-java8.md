@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 'Type Inference in Lambda Expressions : Java 8'
-tag : 'Java 8, Lambda Expressions, Type Inference '
+categories: [Programming]
+tags : [Java 8, Lambda Expressions, Type Inference]
 comments: true
 ---
 

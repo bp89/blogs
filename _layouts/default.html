@@ -13,23 +13,22 @@
 <body>
 
 <div class="container">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Vinay's Blog</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="{{ site.baseurl }}/home">Home</a></li>
-                    <li><a href="{{ site.baseurl }}/">Blogs</a></li>
-                    <li><a href="{{ site.baseurl }}/about">Contact Us</a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </nav>
+    {% include menu.html %}
 </div>
-<div id="main" role="main" class="container" style="padding-top: 70px;padding-bottom: 70px">
-    {{ content }}
+<div id="main" role="main" class="container-fluid" style="padding-top: 70px;padding-bottom: 70px">
+    <div class="row">
+        <!-- Left section of the central page: starts-->
+        <div class="col-md-9">
+            {{ content }}
+        </div>
+        <!-- Left section of the central page: ends-->
+
+        <!-- Right section of the central page: starts-->
+        <div class="col-md-3 ">
+            {% include rightSection.html %}
+        </div>
+        <!-- Right section of the central page: ends-->
+    </div>
 </div>
 
 <nav class="navbar navbar-inverse navbar-fixed-bottom">
@@ -38,21 +37,21 @@
             {% include svg-icons.html %}
         </footer>
     </div>
-</div>
-{% include analytics.html %}
+    </div>
+    {% include analytics.html %}
 
-{%
-include structuredData.html
-headline=page.title
-genre=page.category
-keywords=page.keywords
-content=page.content
-link=page.permalink
-date=page.date
-%}
+    {%
+    include structuredData.html
+    headline=page.title
+    genre=page.category
+    keywords=page.keywords
+    content=page.content
+    link=page.permalink
+    date=page.date
+    %}
 
-<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
 
 </body>
 </html>

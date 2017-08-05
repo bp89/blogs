@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Groovy shorthand operators
-tag: groovy, operators, shorthand operators
+categories: [Programming]
+tags: [Groovy, Operators, Shorthand operators]
 comments: true
 ---
 

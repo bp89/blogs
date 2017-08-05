@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 'Functional Interface for Lambda expressions : Java 8'
-tag:  Java, Java8, Lambda Calculas, Lambda Expressions, Functional Interfaces
+categories: [Programming]
+tags:  [Java, Java8, Lambda Calculas, Lambda Expressions, Functional Interfaces]
 comments: true
 ---
 Lambda Expressions are used to support functional programming in Java. The default behaviour of Lambda expressions is to accept only those interfaces as reference variables which have only one abstract method. We call such interfaces Functional Interfaces.

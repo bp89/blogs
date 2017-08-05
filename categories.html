@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<!--The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.-->
+
+{% assign rawCategories = "" %}
+
+{% for post in site.posts %}
+    {% assign tempCategories = post.categories | join:'|' | append:'|' %}
+    {% assign rawCategories = rawCategories | append:tempCategories %}
+{% endfor %}
+
+{% assign rawCategories = rawCategories | split:'|' | sort %}
+
+
+<!--The following part removes dulpicated tags and invalid tags like blank tag.-->
+
+{% assign categories = "" %}
+
+{% for category in rawCategories %}
+
+    {% if category != "" %}
+        {% if categories == "" %}
+            {% assign categories = category | split:'|' %}
+        {% endif %}
+
+        {% unless categories contains category %}
+            {% assign categories = categories | join:'|' | append:'|' | append:tag | split:'|' %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+
+{% for category in categories %}
+<a href="#">{{category}}</a> |
+{% endfor %}

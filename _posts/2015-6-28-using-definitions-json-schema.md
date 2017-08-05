@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Using definitions internal to json schema and external to json schema (version – draft -04)'
-tag:  Json Schema, json
+tags:  [Json Schema, JSON]
 comments: true
 ---
 

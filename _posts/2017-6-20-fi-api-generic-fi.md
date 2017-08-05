@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Generic Functional Interfaces and Functional Interface API for Lambda Expressions: Java 8'
-tag: Java 8, Functional Programming, Generic Functional Interfaces, Functional Interface API
+tags: [Java 8, Functional Programming, Generic Functional Interfaces, Functional Interface API]
 comments: true
 ---
 

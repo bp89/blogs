@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making a domain non-persistent
-tag: Groovy, GORM, Grails, MapWith, domain
+tags: [Groovy, GORM, Grails]
 comments: true
 ---
 

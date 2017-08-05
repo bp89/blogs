@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Spread Operator in groovy
-tag:  Groovy, Spread Operator, operators
+categories: [Programming]
+tags:  [Groovy, Spread Operator, operators]
 comments: true
 ---
 

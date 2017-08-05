@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Working with SimpleDateFormat
-tag: Java, Date Format, Calendar
+categories: [Programming]
+tags: [Java, Date Format, Calendar]
 comments: true
 ---
 

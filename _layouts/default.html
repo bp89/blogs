@@ -26,7 +26,7 @@
         <!-- Left section of the central page: ends-->
 
         <!-- Right section of the central page: starts-->
-        <div class="col-md-3 ">
+        <div class="col-md-3" id="right-section">
             {% include rightSection.html %}
         </div>
         <!-- Right section of the central page: ends-->
@@ -40,6 +40,7 @@
         </footer>
     </div>
     </div>
+</nav>
     {% include analytics.html %}
 
     {%
@@ -55,5 +56,34 @@
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
 
+    <script>
+        var element = $('#right-section')
+        $.fn.followTo = function (pos) {
+            console.info(pos)
+
+            var $this = this,
+                $window = $(window);
+
+            $window.scroll(function (e) {
+                if ($window.scrollTop() > pos) {
+                    $this.css({
+                        position: 'absolute',
+                        top: pos+70,
+                        right: 0,
+                        borderLeft: '1px dotted'
+                    });
+                } else {
+                    $this.css({
+                        position: 'fixed',
+                        top: 70,
+                        right: 0,
+                        borderLeft: 'none'
+                    });
+                }
+            });
+        };
+        element.followTo(element.height());
+    </script>
 </body>
+
 </html>

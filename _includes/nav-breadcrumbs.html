@@ -1,4 +1,4 @@
-<ol class="breadcrumb" style="padding-top: 70px">
+<ul class="breadcrumb" style="padding-top: 50px">
     <li><a href="{{ site.baseurl }}/">Home</a></li>
     {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
     {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
@@ -28,4 +28,4 @@
     {% endif %}
     {% endfor %}
     {% endfor %}
-</ol>
+</ul>

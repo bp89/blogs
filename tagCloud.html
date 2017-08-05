@@ -31,6 +31,14 @@ title: Tag Cloud
 {% endif %}
 {% endfor %}
 
-{% for tag in tags %}
-<a href="#">{{tag}}</a> |
-{% endfor %}
+<ul class="list-group ">
+    <li class="list-group-item-heading"> Tag Cloud</li>
+
+    {% for tag in tags %}
+    <li class="list-group-item ">
+        <a href="#">{{tag}}</a>
+        <a href="#"><span class="badge pull-right">5 Blogs</span></a>
+    </li>
+    {% endfor %}
+
+</ul>

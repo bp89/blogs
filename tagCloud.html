@@ -6,7 +6,6 @@ title: Tag Cloud
 <!--The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.-->
 
 {% assign rawtags = "" %}
-
 {% for post in site.posts %}
 {% assign ttags = post.tags | join:'|' | append:'|' %}
 {% assign rawtags = rawtags | append:ttags %}
@@ -31,8 +30,8 @@ title: Tag Cloud
 {% endif %}
 {% endfor %}
 
-<ul class="list-group ">
-    <li class="list-group-item-heading"> Tag Cloud</li>
+<ul class="list-group">
+    <li class="list-group-item active"> Tag Cloud</li>
 
     {% for tag in tags %}
     <li class="list-group-item ">

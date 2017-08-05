@@ -11,11 +11,19 @@
     <link rel="icon" href="{{ site.baseurl }}/images/favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
-
 <div class="container">
     {% include menu.html %}
 </div>
-<div id="main" role="main" class="container-fluid" style="padding-top: 70px;padding-bottom: 70px">
+
+{% include nav-breadcrumbs.html %}
+
+<!--<ul class="breadcrumb" style="padding-top: 70px;">-->
+    <!--<li><a href="#">Home</a></li>-->
+    <!--<li><a href="#">Products</a></li>-->
+    <!--<li class="active">Accessories</li>-->
+<!--</ul>-->
+
+<div id="main" role="main" class="container-fluid" style="padding-bottom: 70px">
     <div class="row">
         <!-- Left section of the central page: starts-->
         <div class="col-md-9">

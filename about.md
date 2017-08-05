@@ -2,6 +2,7 @@
 layout: page
 title: Biography
 permalink: /about/
+breadcrumb: Contact Us
 ---
 
 Vinay Prajapati has 5+ years of experience in different technologies and platforms e.g. Franchising, Cloud, Marketing. He enjoys working as full stack IT professional.

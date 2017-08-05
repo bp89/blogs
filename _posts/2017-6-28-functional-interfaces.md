@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Functional Interface for Lambda expressions : Java 8'
+title: Functional Interface for Lambda expressions Java 8
 categories: [Programming]
 tags:  [Java, Java8, Lambda Calculas, Lambda Expressions, Functional Interfaces]
 comments: true

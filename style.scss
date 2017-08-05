@@ -164,10 +164,10 @@ img {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 1px solid #67b168;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 15px;
+    font-size: 12px;
     font-style: italic;
   }
 
@@ -195,7 +195,7 @@ img {
 }
 
 footer {
-  padding: 20px 0;
+  padding-top: 5px;
   text-align: center;
 }
 

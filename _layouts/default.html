@@ -12,28 +12,27 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-
-            <a class="navbar-brand" href="#">Vinay's Blog</a>
+<div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Vinay's Blog</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="{{ site.baseurl }}/home">Home</a></li>
+                    <li><a href="{{ site.baseurl }}/">Blogs</a></li>
+                    <li><a href="{{ site.baseurl }}/about">Contact Us</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="{{ site.baseurl }}/home">Home</a></li>
-                <li><a href="{{ site.baseurl }}/">Blogs</a></li>
-                <li><a href="{{ site.baseurl }}/about">Contact Us</a></li>
-
-            </ul>
-
-        </div><!--/.nav-collapse -->
-    </div>
-</nav>
-
+    </nav>
+</div>
 <div id="main" role="main" class="container" style="padding-top: 70px">
     {{ content }}
 </div>
-<div class="wrapper-footer " >
+
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
     <div class="container">
         <footer class="footer">
             {% include svg-icons.html %}

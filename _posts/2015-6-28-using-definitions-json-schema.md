@@ -6,6 +6,7 @@ comments: true
 ---
 
 There could be times when you end with a generously large schema with lots of redundant properties due to certain business requirements.
+
 Json schema comes with a good feature named as definitions. It is used to contain repeating properties in one place and then referencing these using $ref and also overriding some property if needed.
 
 Let’s take a look at schema below:

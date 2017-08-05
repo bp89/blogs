@@ -6,6 +6,7 @@ comments: true
 ---
 
 In grails app, there might come scenarios where one need to create a non-persistent domain rather than creating a command obejct or POJO / POGO.
+
 GORM comes with a handy static property mapWith which has default value GORM (which associates any domain with gorm persistence layer).
 To make a domain non persistent set mapWith=”none”. For example, see Ticket domain below
 

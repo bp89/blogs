@@ -4,10 +4,10 @@ title: 'Functional Interface for Lambda expressions : Java 8'
 tag:  Java, Java8, Lambda Calculas, Lambda Expressions, Functional Interfaces
 comments: true
 ---
+Lambda Expressions are used to support functional programming in Java. The default behaviour of Lambda expressions is to accept only those interfaces as reference variables which have only one abstract method. We call such interfaces Functional Interfaces.
+ 
 
-As we already know that Lambda Expressions are used to support functional programming in Java. The default behaviour of Lambda expressions is to accept only those interfaces as reference variables which have only one abstract method. We call such interfaces Functional Interfaces. You could also name them as SAM, i.e., Single Abstract Method interfaces.
-
-Java 8 provides an annotation Functional Interface that strictly ensures that at compile time, the interface has only one abstract method. If there is an additional abstract method present, the program shows an error in the interface.
+You could also name them as SAM, i.e., Single Abstract Method interfaces. Java 8 provides an annotation Functional Interface that strictly ensures that at compile time, the interface has only one abstract method. If there is an additional abstract method present, the program shows an error in the interface.
 
 Let us understand it through an example. Suppose we have to write a program to print “Hello India!” A simple implementation using Lambda expressions could be:
 	

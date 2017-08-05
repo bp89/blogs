@@ -6,6 +6,7 @@ comments: true
 ---
 
 SimpleDateFormat class implementation of DateFormat could be used to convert date string to date.
+
 Here is how, you can get different date format using SimpleDateFormat and Calendar class. In example below, we have used yyyy-mm-dd format. It says year should be in full e.g. 2012, month should be two digit 01-12 & date should be 1-31 depending upon month chosen.
 If you don't provide string in correct date format (i.e. matching the format specified in `new SimpleDateFormat("yyyy-MM-dd")`), then ParseException would be thrown at runtime.
 

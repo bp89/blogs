@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://blogs.faadudeveloper.com/</title>
+  <link>http://blogs.faadudeveloper.com/</link>
+
+<item>
+     <link>http://blogs.faadudeveloper.com/</link>
+     <title>Blogs – Vinay Prajapati : Blogs</title>
+     <description>Vinay has 5+ years of experience in different technologies and platforms e.g.Franchising, Cloud, Marketing . He is overall having knowledge of Java, gradle, springboot, groovy, jsp, gsp, grails, junit, spock, restful webservices, json, html, css, javascript,jquery, mysql, mongo, docker, spring, hibernate, windows, ubuntu, linux, JIRA, bitbucket &amp; Trello etc.</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/tagCloud/</link>
+     <title>Tag Cloud – Vinay Prajapati : Blogs</title>
+     <description>Vinay has 5+ years of experience in different technologies and platforms e.g.Franchising, Cloud, Marketing . He is overall having knowledge of Java, gradle, springboot, groovy, jsp, gsp, grails, junit, spock, restful webservices, json, html, css, javascript,jquery, mysql, mongo, docker, spring, hibernate, windows, ubuntu, linux, JIRA, bitbucket &amp; Trello etc.</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/categories/</link>
+     <title>Category – Vinay Prajapati : Blogs</title>
+     <description>Vinay has 5+ years of experience in different technologies and platforms e.g.Franchising, Cloud, Marketing . He is overall having knowledge of Java, gradle, springboot, groovy, jsp, gsp, grails, junit, spock, restful webservices, json, html, css, javascript,jquery, mysql, mongo, docker, spring, hibernate, windows, ubuntu, linux, JIRA, bitbucket &amp; Trello etc.</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/about/</link>
+     <title>Contact Us – Vinay Prajapati : Blogs</title>
+     <description>Vinay has 5+ years of experience in different technologies and platforms e.g.Franchising, Cloud, Marketing . He is overall having knowledge of Java, gradle, springboot, groovy, jsp, gsp, grails, junit, spock, restful webservices, json, html, css, javascript,jquery, mysql, mongo, docker, spring, hibernate, windows, ubuntu, linux, JIRA, bitbucket &amp; Trello etc.</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/functional-interfaces/</link>
+     <title>Functional Interface for Lambda expressions Java 8 – Vinay Prajapati : Blogs</title>
+     <description>Lambda Expressions are used to support functional programming in Java. The default behaviour of Lambda expressions is to accept only those interfaces as reference variables which have only one abstract method. We call such interfaces Functional Interfaces.
+
+</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/Type-Inference-java8/</link>
+     <title>Type Inference in Lambda Expressions : Java 8 – Vinay Prajapati : Blogs</title>
+     <description>Type Inference means that the data type of any expression (e.g. method return type or parameter type) can be deduced automatically by the compiler. Groovy language is a good example of programming languages supporting Type Inference.
+
+</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/fp-lambda-expressions/</link>
+     <title>Functional Programming in Java 8 Using Lambda Expressions – Vinay Prajapati : Blogs</title>
+     <description>Lambda expressions are the most talked feature of Java 8. Lambda expressions drastically change the way we write the code in Java 8 as compared to what we used to, in older versions.
+
+</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/fi-api-generic-fi/</link>
+     <title>Generic Functional Interfaces and Functional Interface API for Lambda Expressions: Java 8 – Vinay Prajapati : Blogs</title>
+     <description>Lambda expressions come with a standard rule that they can only be assigned to a reference variable which is a Functional Interface i.e. an interface having one and only one abstract method.
+
+</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/springboot-using-cli/</link>
+     <title>Quick start with Springboot using CLI – Vinay Prajapati : Blogs</title>
+     <description>SpringBoot is one of the main projects of Spring community which takes opinionated view of production ready applications. It helps you getting up and running a production grade spring application.
+
+</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/dependencies-json-schema/</link>
+     <title>Using “dependencies” in json schema (version : draft-v4) – Vinay Prajapati : Blogs</title>
+     <description>Json Schema has another interesting feature which allows value of some property of json schema to depend upon other fields value. This could be done using “dependencies” which allows specifying dependent object / property on the basis of value of the field which is using dependencies keyword.
+
+</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/using-definitions-json-schema/</link>
+     <title>Using definitions internal to json schema and external to json schema (version – draft -04) – Vinay Prajapati : Blogs</title>
+     <description>There could be times when you end with a generously large schema with lots of redundant properties due to certain business requirements.
+
+</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/grails-non-persistent-domains/</link>
+     <title>Making a domain non-persistent – Vinay Prajapati : Blogs</title>
+     <description>In grails app, there might come scenarios where one need to create a non-persistent domain rather than creating a command obejct or POJO / POGO.
+
+</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/spread-operator/</link>
+     <title>Spread Operator in groovy – Vinay Prajapati : Blogs</title>
+     <description>The Spread Operator is used to invoke an action on all items of an aggregate object. It is equivalent to calling the action on each item and collecting the result into a list:
+
+</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/compile-groovy-statically/</link>
+     <title>Compiling groovy code statically – Vinay Prajapati : Blogs</title>
+     <description>Groovy by default uses dynamic dispatch. Dynamic Dispatch could be defined as the capability of adding or replacing units of code at run time. For example, we can change the definition of a method or we can add new methods to a class at run time using metaprogramming in Groovy.
+
+</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/operators-in-groovy/</link>
+     <title>Groovy shorthand operators – Vinay Prajapati : Blogs</title>
+     <description>Every language have shorthand operators that allows multi line operations to be performed in single line. For example ?: is a ternary operator used in scenarios where condition and  the code inside condition is very small and specific to comparison operands.
+
+</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://blogs.faadudeveloper.com/Using-SimpleDateFormat/</link>
+     <title>Working with SimpleDateFormat – Vinay Prajapati : Blogs</title>
+     <description>SimpleDateFormat class implementation of DateFormat could be used to convert date string to date.
+
+</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

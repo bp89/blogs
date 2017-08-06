@@ -63,24 +63,25 @@
 
             var $this = this,
                 $window = $(window);
-
-            $window.scroll(function (e) {
-                if ($window.scrollTop() > pos) {
-                    $this.css({
-                        position: 'absolute',
-                        top: pos+70,
-                        right: 0,
-                        borderLeft: '1px dotted'
-                    });
-                } else {
-                    $this.css({
-                        position: 'fixed',
-                        top: 70,
-                        right: 0,
-                        borderLeft: 'none'
-                    });
-                }
-            });
+            if ($window.width() > 768) {
+                $window.scroll(function (e) {
+                    if ($window.scrollTop() > pos) {
+                        $this.css({
+                            position: 'absolute',
+                            top: pos + 70,
+                            right: 0,
+                            borderLeft: '1px dotted'
+                        });
+                    } else {
+                        $this.css({
+                            position: 'fixed',
+                            top: 70,
+                            right: 0,
+                            borderLeft: 'none'
+                        });
+                    }
+                });
+            }
         };
         element.followTo(element.height());
     </script>

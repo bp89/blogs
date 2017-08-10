@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Making a domain non-persistent
+categories: [Programming]
 tags: [Groovy, GORM, Grails]
 comments: true
 ---

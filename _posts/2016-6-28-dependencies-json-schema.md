@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Using “dependencies” in json schema (version : draft-v4)'
+categories: [Programming]
 tags:  [Json Schema, JSON]
 comments: true
 ---

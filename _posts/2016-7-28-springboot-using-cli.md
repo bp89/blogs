@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 'Quick start with Springboot using CLI'
-tags : [Java , Spring, Spring Boot, CLI]
+categories: [Programming]
+tags : [Java , Spring, Springboot, CLI]
 comments: true
 ---
 

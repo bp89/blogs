@@ -2,7 +2,7 @@
 layout: post
 title: Spread Operator in groovy
 categories: [Programming]
-tags:  [Groovy, Spread Operator, operators]
+tags:  [Groovy, Spread-Operator, Operators]
 comments: true
 ---
 

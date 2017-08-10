@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Using definitions internal to json schema and external to json schema (version – draft -04)'
+categories: [Programming]
 tags:  [Json Schema, JSON]
 comments: true
 ---

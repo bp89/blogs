@@ -17,18 +17,14 @@ body {
 table {
   display: table;
   border-collapse: separate;
-  border-spacing: 3px;
   width: 100%;
-  font-family: 'Bitstream Vera Sans Mono', 'Courier', monospace;
 
   tr:hover {
     background-color: beige;
   }
-
-  td {
-    border-bottom: 1px groove;
+  th{
+    font-weight: bold;
   }
-
 }
 
 em, i {

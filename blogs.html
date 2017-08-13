@@ -1,0 +1,51 @@
+---
+layout: default
+title: Blogs
+---
+
+<div class="posts container">
+    {% assign items = "" %}
+    {% for post in site.posts %}
+
+        {% capture list_item %}
+            {%
+                include blogListItem.html
+                site=site
+                post=post
+            %}
+        {% endcapture %}
+        {% assign items = items | append: list_item | append: "|||" %}
+
+    {{list_item}}
+    {% endfor %}
+
+    {% assign items = items | split: "|||" | join: ',' %}
+
+
+</div>
+
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+ "@type": "Blog",
+ "keywords": "software engineering agile refactoring javascript docker groovy java grails spring springboot jquery angular java8 GORM spring data lombok google guice",
+ "url": "http://blogs.faadudeveloper.com",
+ "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://blogs.faadudeveloper.com"
+  },
+ "author": {
+    "@type": "Person",
+    "name": "Vinay Prajapati",
+    "sameAs": [
+        "https://twitter.com/vinayp3ajapati",
+        "https://github.com/bp89",
+        "https://plus.google.com/u/0/103204750579116355671",
+        "https://www.facebook.com/SoftIVenture-267927196554975/"
+    ]
+  }
+ }
+
+
+</script>
+

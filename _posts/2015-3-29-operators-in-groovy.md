@@ -2,7 +2,7 @@
 layout: post
 title: Groovy shorthand operators
 categories: [Programming]
-tags:[Groovy, Operators, Shorthand-operators]
+tags: [Groovy, Operators, Shorthand-operators]
 comments: true
 ---
 

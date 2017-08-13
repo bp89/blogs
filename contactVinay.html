@@ -3,6 +3,31 @@ layout: page
 title: Contact Us
 ---
 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <a href="{{ site.baseurl }}/">
+                <img class="img-thumbnail" src="{{ site.avatar }}"/>
+            </a>
+            <h4><a href="{{ site.baseurl }}/">{{ site.name }}</a></h4>
+        </div>
+        <div class="col-md-10">
+            <p class="site-description">{{ site.description }}</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <article class="page">
+                <div class="entry">
+                    {{ content }}
+                </div>
+            </article>
+        </div>
+    </div>
+
+</div>
+
 <div class="panel panel-primary">
     <div class="panel-heading">Biography</div>
     <div class="panel-body">

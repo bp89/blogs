@@ -1,11 +1,13 @@
 ---
 layout: post
 title: 'Quick start with Springboot using CLI'
-tag : Java , Spring, Spring Boot, CLI
+categories: [Programming]
+tags : [Java , Spring, Springboot, CLI]
 comments: true
 ---
 
 SpringBoot is one of the main projects of Spring community which takes opinionated view of production ready applications. It helps you getting up and running a production grade spring application.
+
 It comes with even a CLI to get you quick started with springboot. CLI stands for Command Line Interface which gives *spring* command using which the application could be run.
 This CLI allows you to create a groovy script called Spring script in Springboot documentation which could be run as a spring application using simple command
 

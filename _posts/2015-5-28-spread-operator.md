@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Spread Operator in groovy
-tag:  Groovy, Spread Operator, operators
+categories: [Programming]
+tags:  [Groovy, Spread-Operator, Operators]
 comments: true
 ---
 
-The Spread Operator is used to invoke an action on all items of an aggregate object. 
-It is equivalent to calling the action on each item and collecting the result into a list:
+The Spread Operator is used to invoke an action on all items of an aggregate object. It is equivalent to calling the action on each item and collecting the result into a list:
 
 	class Person {
 		String name

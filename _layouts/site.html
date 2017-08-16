@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} : Blogs</title>
@@ -15,12 +16,17 @@
 <div class="container">
     {% include menu.html %}
 </div>
+
 {% include nav-breadcrumbs.html %}
 
-<body>
-<div class="site-info">
-    {{content}}
-
+<div id="main" role="main" class="container-fluid" style="padding-bottom: 70px">
+    <div class="row">
+        <!-- Left section of the central page: starts-->
+        <div class="col-md-12">
+            {{ content }}
+        </div>
+        <!-- Left section of the central page: ends-->
+    </div>
 </div>
 
 <nav class="navbar navbar-inverse navbar-fixed-bottom">
@@ -76,6 +82,5 @@ date=page.date
     element.followTo(element.height());
 </script>
 </body>
+
 </html>
-
-

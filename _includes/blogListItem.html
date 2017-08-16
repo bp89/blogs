@@ -1,18 +1,15 @@
-<div class="blog-box blue-box ">
-    <p class="bottom">
-        {{post.tag}}
-        <span class="date" style="float: right">
-                 {{ post.date | date: "%B %e, %Y" }} By <a href="{{ site.baseurl }}/about"> Vinay Prajapati</a>
-            </span>
-    </p>
-
+<div class="blog-box blue-box col-md-3">
     <header class="entry-header">
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </header>
     <div class="entry">
-        {{ post.excerpt }}
+        {{post.excerpt}}
     </div>
     <div class="read-more">
         <a href="{{ site.baseurl }}{{ post.url }}">Read More...</a>
+    </div>
+    <div class="date" style="position: absolute;bottom: 0;border-top: 2px dashed #f2dede;width: 90%">
+        {{post.tags | join: ", "}} <br/>
+        <div class="pull-right"> {{ post.date | date: "%B %e, %Y" }}</div>
     </div>
 </div>

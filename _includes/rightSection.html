@@ -1,0 +1,42 @@
+<div class="row">
+
+    <!-- Recent blogs section: starts-->
+    <div class="col-md-12">
+        <ul class="list-group">
+            <li class="list-group-item active">Recent Blog</li>
+            {% for post in site.posts limit:5 %}
+            <li class="list-group-item">
+                <a href="{{ post.url }}">{{ post.title || slice: 0,45 }}...</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <!-- Recent blogs section: ends-->
+
+    <!-- top 5 blogs section: starts-->
+    <div class="col-md-12">
+        <ul class="list-group">
+            <li class="list-group-item active">Top 5 Blogs</li>
+            {% for post in site.posts limit:5 %}
+            <li class="list-group-item">
+                <a href="{{ post.url }}">{{ post.title || slice: 0, 45 }}...</a>
+            </li>
+            {% endfor %}
+        </ul>
+        </p>
+    </div>
+    <!-- top 5 blogs section: ends-->
+
+    <!-- top 5 Tags section: starts-->
+    <div class="col-md-12">
+        <ul class="list-group">
+            <li class="list-group-item active">Top 5 Tags</li>
+            {% for tag in site.data.tags limit:5 %}
+            <li class="list-group-item">
+                <a href="">{{ tag[1].title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <!-- top 5 tags section: ends-->
+</div>

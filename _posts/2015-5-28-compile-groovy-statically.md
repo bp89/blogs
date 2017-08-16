@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Compiling groovy code statically
-tag:  Groovy, compilation
+categories: [Programming]
+tags: [Groovy, Compiler]
 comments: true
 ---
 

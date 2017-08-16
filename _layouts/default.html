@@ -3,51 +3,90 @@
 <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} : Blogs</title>
     {% include meta.html %}
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/js/bootstrap.min.js"/>
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
           href="{{ site.baseurl }}/feed.xml"/>
     <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon/favicon.ico" type="image/x-icon">
     <link rel="icon" href="{{ site.baseurl }}/images/favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
-<div class="wrapper-masthead">
-    <div class="container">
-        <header class="masthead clearfix">
-            <div class="site-info">
-                <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}"/></a>
-                <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-                <p class="site-description">{{ site.description }}</p>
-            </div>
-            <nav>
-                <a href="{{ site.baseurl }}/">Blogs</a>
-                <a href="{{ site.baseurl }}/about">About</a>
-            </nav>
-        </header>
+<div class="container">
+    {% include menu.html %}
+</div>
+
+{% include nav-breadcrumbs.html %}
+
+<div id="main" role="main" class="container-fluid" style="padding-bottom: 70px">
+    <div class="row">
+        <!-- Left section of the central page: starts-->
+        <div class="col-md-9">
+            {{ content }}
+        </div>
+        <!-- Left section of the central page: ends-->
+
+        <!-- Right section of the central page: starts-->
+        <div class="col-md-3" id="right-section">
+            {% include rightSection.html %}
+        </div>
+        <!-- Right section of the central page: ends-->
     </div>
 </div>
-<div id="main" role="main" class="container">
-    {{ content }}
-</div>
-<div class="wrapper-footer">
+
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
     <div class="container">
         <footer class="footer">
             {% include svg-icons.html %}
         </footer>
     </div>
-</div>
-{% include analytics.html %}
+    </div>
+</nav>
+    {% include analytics.html %}
 
-{%
-include structuredData.html
-headline=page.title
-genre=page.category
-keywords=page.keywords
-content=page.content
-link=page.permalink
-date=page.date
-%}
+    {%
+    include structuredData.html
+    headline=page.title
+    genre=page.category
+    keywords=page.keywords
+    content=page.content
+    link=page.permalink
+    date=page.date
+    %}
+
+    <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+
+    <script>
+        var element = $('#right-section')
+        $.fn.followTo = function (pos) {
+            console.info(pos)
+
+            var $this = this,
+                $window = $(window);
+            if ($window.width() > 768) {
+                $window.scroll(function (e) {
+                    if ($window.scrollTop() > pos) {
+                        $this.css({
+                            position: 'absolute',
+                            top: pos + 70,
+                            right: 0,
+                            borderLeft: '1px dotted'
+                        });
+                    } else {
+                        $this.css({
+                            position: 'fixed',
+                            top: 70,
+                            right: 0,
+                            borderLeft: 'none'
+                        });
+                    }
+                });
+            }
+        };
+        element.followTo(element.height());
+    </script>
 </body>
+
 </html>

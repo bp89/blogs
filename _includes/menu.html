@@ -11,14 +11,29 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse ">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/blogs">Blogs </a></li>
-                <li><a href="{{ site.baseurl }}/services">Services</a></li>
-                <li><a href="{{ site.baseurl }}/about">About</a></li>
-                <li><a href="{{ site.baseurl }}/tagCloud">Tag Cloud</a></li>
-                <li><a href="{{ site.baseurl }}/categories">Category</a></li>
-                <li><a href="{{ site.baseurl }}/contactUs">Contact</a></li>
+                <li id="home" class="active"><a href="{{ site.baseurl }}/">Home</a></li>
+                <li id="blogs"><a href="{{ site.baseurl }}/blogs">Blogs </a></li>
+                <li id="services"><a href="{{ site.baseurl }}/services">Services</a></li>
+                <li id="about"><a href="{{ site.baseurl }}/about">About</a></li>
+                <li id="tagCloud"><a href="{{ site.baseurl }}/tagCloud">Tag Cloud</a></li>
+                <li id="categories"><a href="{{ site.baseurl }}/categories">Category</a></li>
+                <li id="contactUs"><a href="{{ site.baseurl }}/contactUs">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
+
+<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+<script>
+
+    var urlArray = $(location).attr('href').split("/")
+    var relativeURL = urlArray[urlArray.length - 2]
+    if(relativeURL === ""){
+        relativeURL = "home"
+    }
+    $(".nav li").removeClass("active");
+    $("#"+relativeURL).addClass("active");
+    if ( $(".nav .active").length === 0){
+        $("#home").addClass("active");
+    }
+</script>

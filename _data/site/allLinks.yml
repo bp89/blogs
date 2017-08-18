@@ -1,0 +1,40 @@
+---
+links:
+  - title: 'Know Us'
+    items:
+      - title: 'About'
+        relativeUrl: 'about'
+        description: 'Know about us.'
+      - title: 'Leadership'
+        relativeUrl: 'about'
+        description: 'Our Leaders.'
+      - title: 'News'
+        relativeUrl: 'about'
+        description: 'Know latest news.'
+      - title: 'Awards'
+        relativeUrl: 'about'
+        description: 'Our Awards.'
+
+  - title: 'Knowledge Sharing'
+    items:
+      - title: 'Blogs'
+        relativeUrl: 'blogs'
+        description: 'Know about us.'
+      - title: 'Tag Cloud'
+        relativeUrl: 'tagCloud'
+        description: 'Our Blogs tags.'
+      - title: 'Category'
+        relativeUrl: 'categories'
+        description: 'Our Blogs Categories'
+
+  - title: 'Connect with Us'
+    items:
+      - title: 'Career'
+        relativeUrl: 'career'
+        description: 'Work with us.'
+      - title: 'Queries & Concerns'
+        relativeUrl: 'queries'
+        description: 'Feel free to share your thoughts, queries or concerns.'
+      - title: 'Ask for Services'
+        relativeUrl: '/hireUs'
+        description: 'Hire us to build a better Digital world for you'

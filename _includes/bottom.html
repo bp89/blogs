@@ -1,10 +1,31 @@
 <hr/>
-<div class="container-fluid"
-     style="background-color: mistyrose;position: absolute;margin-bottom:53px;width: 100%;opacity: .7">
+<style>
+    .bottom-section {
+        background-color: #d0e9c6;
+        position: absolute;
+        margin-bottom: 53px;
+        width: 100%;
+        opacity: .7;
+        padding-bottom: 100px;
+        padding-top: 10px;
+    }
+    .column-section{
+        border-right:1px groove #4cae4c;
+        border-top: 1px dotted;
+        border-left: 1px dotted #449d44;
+        border-radius: 50%;
+        font-family: Tahoma;
+
+    }
+    .media-heading{
+        font-weight: bold;
+    }
+</style>
+<div class="container bottom-section">
     <div class="row">
         {% for column in {{site.data.site.allLinks.links}} %}
-        <div class="col-md-{{ 12 | divided_by: site.data.site.allLinks.links.size}}">
-            <div class="media-heading"><strong>{{column.title}}</strong></div>
+        <div class="col-md-{{ 12 | divided_by: site.data.site.allLinks.links.size}} column-section">
+            <div class="media-heading">{{column.title}}</div>
             <ul class="clearfix menu">
                 {% for item in column.items %}
                 <li class="menu-item"><a href="{{ site.baseurl }}/{{item.relativeUrl}}">{{item.title}}</a></li>

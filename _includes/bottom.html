@@ -20,11 +20,22 @@
     .media-heading{
         font-weight: bold;
     }
+    .logo-section{
+        text-transform: uppercase;
+    }
+
+    .bottom-section a{
+        color: #1b6d85;
+        text-decoration:none;
+    }
+    .bottom-section a:hover{
+        color: #8c8c8c;
+    }
 </style>
 <div class="container bottom-section">
     <div class="row">
         {% for column in {{site.data.site.allLinks.links}} %}
-        <div class="col-md-{{ 12 | divided_by: site.data.site.allLinks.links.size}} column-section">
+        <div class="col-md-{{ 9 | divided_by: site.data.site.allLinks.links.size}} column-section">
             <div class="media-heading">{{column.title}}</div>
             <ul class="clearfix menu">
                 {% for item in column.items %}
@@ -33,5 +44,23 @@
             </ul>
         </div>
         {% endfor %}
+        <div class="col-md-1"></div>
+        <div class="col-md-2 logo-section">
+            <div class="media-heading">{{column.title}}</div>
+            <img src="{{site.baseurl}}/images/logo/logo.png"/>
+            <div>
+                &copy 2017, Soft I Ventures</div>
+        </div>
     </div>
 </div>
+
+
+<ul class="nav pull-right scroll-top">
+    <li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+</ul>
+
+<script>
+    $('.scroll-top').click(function(){
+        $('body,html').animate({scrollTop:0},1000);
+    })
+</script>

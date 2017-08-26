@@ -156,6 +156,18 @@ img {
   text-align: center;
   font-size: 12px;
 }
+.btn-outline-info {
+  color: #5cb85c;
+  background-image: none;
+  background-color: #f2f2f2;
+  border: 1px solid #5cb85c;
+}
+
+.btn-outline-info:hover {
+  background-image: none;
+  background-color: #d0e9c6;
+  border-color: #5cb85c;
+}
 
 .post {
   blockquote {
@@ -173,11 +185,13 @@ img {
 
   .tags {
     text-align: left;
-    background-color: #dddddd;
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top:1px solid ;
+    border-bottom: 1px solid;
   }
-
   .entry {
     font-size: 15px;
   }

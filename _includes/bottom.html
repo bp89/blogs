@@ -1,7 +1,7 @@
 <hr/>
 <style>
     .bottom-section {
-        background-color: #d0e9c6;
+        background-color: #ecf1ea;
         position: absolute;
         margin-bottom: 53px;
         width: 100%;
@@ -15,7 +15,6 @@
         border-left: 1px dotted #449d44;
         border-radius: 50%;
         font-family: Tahoma;
-
     }
     .media-heading{
         font-weight: bold;
@@ -38,7 +37,7 @@
         background-color: #faebcc;
     }
 </style>
-<div class="container bottom-section">
+<div class="container-fluid bottom-section">
     <div class="row">
         {% for column in {{site.data.site.allLinks.links}} %}
         <div class="col-md-{{ 9 | divided_by: site.data.site.allLinks.links.size}} column-section">

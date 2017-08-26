@@ -2,7 +2,12 @@
 layout: site
 title: Contact Us
 ---
-
+<style>
+.contributors{
+    width: 200px;
+    height: 200px;
+}
+</style>
 <!-- Lots of repeated content here. Use yaml template or other template form to avoid duplication-->
 <div class="container-fluid">
     <div class="row">
@@ -10,34 +15,35 @@ title: Contact Us
             <h2 class="my-4">Our Team</h2>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-            <img class="rounded-circle img-circle d-block mx-auto" src="{{ site.avatar }}" alt="">
+            <img class="rounded-circle img-circle d-block mx-auto contributors" src="{{ site.avatar }}" alt="">
             <h3>Vinay Prajapati
 
                 <p>
-                    <small>Full Stack Technical Architect</small>
+                    <small>Full Stack Dev / Technical Architect</small>
                 </p>
             </h3>
-            <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+            <p>Vinay is a  technology enthusiast. He keeps on doing research on different technologies, ensures the best quality code and latest tech stack.</p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-            <img class="rounded-circle img-circle d-block mx-auto" src="http://placehold.it/200x200"
+            <img class="rounded-circle img-circle d-block mx-auto contributors"
+                 src="{{site.baseurl}}/images/contributors/adesh-kumar.jpeg"
                  alt="Pic not uploaded">
             <h3>Adesh Prajapati
                 <p>
-                    <small>Front-end architect</small>
+                    <small>Front-end Architect</small>
                 </p>
             </h3>
-            <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+            <p>Adesh Prajapati is a front-end engineer and architect. He takes important decisions about choosing the suitable tech stack for any application, engineers the web applications and come up with out of box solutions.</p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-            <img class="rounded-circle img-circle d-block mx-auto" src="http://placehold.it/200x200"
+            <img class="rounded-circle img-circle d-block mx-auto contributors" src="{{site.baseurl}}/images/contributors/moni.jpeg"
                  alt="Pic not uploaded">
-            <h3>Ram Kumar Prajapati
+            <h3>Moni Prajapati
                 <p>
-                    <small>Business Manager</small>
+                    <small>Sales Manager</small>
                 </p>
             </h3>
-            <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+            <p>Moni Prajapati Leads the sales team of Soft I Ventures. She takes care of our market presence, new projects and contracts. </p>
         </div>
 
     </div>

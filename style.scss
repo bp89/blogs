@@ -22,7 +22,7 @@ table {
   tr:hover {
     background-color: beige;
   }
-  th{
+  th {
     font-weight: bold;
   }
 }
@@ -137,11 +137,6 @@ img {
   }
 }
 
-.entry {
-  font-size: 12px;
-  text-align: left;
-}
-
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -156,6 +151,7 @@ img {
   text-align: center;
   font-size: 12px;
 }
+
 .btn-outline-info {
   color: #5cb85c;
   background-image: none;
@@ -169,7 +165,24 @@ img {
   border-color: #5cb85c;
 }
 
+.entry-header {
+  font-size: 15px;
+  a {
+    text-decoration: no-underline;
+  }
+}
+
+.excerpt {
+  font-size: 11px;
+  text-align: left;
+}
+.breadcrumb{
+  color: #918fef;
+}
 .post {
+  background-color: white;
+  padding-right: 10px;
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 1px solid #67b168;
@@ -189,11 +202,12 @@ img {
     margin-top: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-top:1px solid ;
+    border-top: 1px solid;
     border-bottom: 1px solid;
   }
   .entry {
-    font-size: 15px;
+    font-size: 13px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 }
 

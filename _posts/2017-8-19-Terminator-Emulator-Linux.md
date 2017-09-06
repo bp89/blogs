@@ -43,6 +43,10 @@ Below is a screenshot of same.
 
 You could open multiple tabs by using following key strokes:-
 
+	CTRL + E - Open Tab Horizontally
+	CTRL + O - Open Tab Vertically
+	CTRL + ALT + X - Maximize / Restore tab to previous size
+	ALT + Arrow Key - Select another tab
 
 ![_config.yml]({{ site.baseurl }}/images/2017-8-19-Terminator-Emulator-Linux/opening-multiple-terminal-tabs.PNG)
 
@@ -68,5 +72,7 @@ Rest should be intutive :)
 
 ![_config.yml]({{ site.baseurl }}/images/2017-8-19-Terminator-Emulator-Linux/useCTRL_ARROWkeyToIncreaseDecreaseSize.PNG)
 
+Overall you shouldn't need mouse for these frequent actions especially opening the new tabs and resizing those as and when required.
 
+Hope it helps! Please feel free to share your suggestions if any.
 

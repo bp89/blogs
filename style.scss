@@ -9,6 +9,37 @@
 /* BASE RULES */
 /**************/
 
+$banner-opacity: 0.9;
+$banner-height: 500px;
+$banner-width: 100%;
+$blur-depth: 3px;
+
+.banner-background-1 {
+  opacity: $banner-opacity;
+  background-image: url("images/carousal-images/banner-1.jpg");
+  height: $banner-height;
+  width: $banner-width;
+  //-webkit-filter: blur($blur-depth);
+  //-moz-filter: blur($blur-depth);
+  //-o-filter: blur($blur-depth);
+  //-ms-filter: blur($blur-depth);
+  //filter: blur($blur-depth);
+}
+
+.banner-background-2 {
+  opacity: $banner-opacity;
+  background-image: url("images/carousal-images/banner-2.jpg");
+  height: $banner-height;
+  width: $banner-width;
+}
+
+.banner-background-3 {
+  opacity: $banner-opacity;
+  background-image: url("images/carousal-images/banner-3.jpg");
+  height: $banner-height;
+  width: $banner-width;
+}
+
 body {
   background-image: url('images/sports.png');
   color: $darkGray;
@@ -107,6 +138,11 @@ img {
   }
 }
 
+.banner-text {
+  color: #faff35;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .site-info {
   float: left;
 
@@ -176,9 +212,7 @@ img {
   font-size: 11px;
   text-align: left;
 }
-.breadcrumb{
-  color: #918fef;
-}
+
 .post {
   background-color: white;
   padding-right: 10px;
@@ -259,3 +293,12 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+.svg-icon {
+  opacity: 0.6;
+
+}
+
+.svg-icon:hover {
+  opacity: 1;
+}

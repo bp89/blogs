@@ -15,7 +15,7 @@ This CLI allows you to create a groovy script called Spring script in Springboot
 
 A simple example of a Spring script could be as below:
 
-{% highlight java linenos %}
+```java
     @Controller
     class Example {
         @RequestMapping("/")
@@ -24,7 +24,7 @@ A simple example of a Spring script could be as below:
             "Hello Spring boot audience!!!"
         }
     }
-{% endhighlight %}
+```
 
 This script just by default imports few annotation classes(e.g. Controller,ResponseBody and RequestMApping above) and add annotations when run with CLI. In normal spring application without a springboot CLI but with springboot would require to add the imports for these.
     

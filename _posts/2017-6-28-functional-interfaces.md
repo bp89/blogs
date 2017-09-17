@@ -34,7 +34,7 @@ Now if a new developer tries to add another abstract method to the interface, he
 Hence, there is one thing to learn that functional interfaces have a different purpose and usage even though they follow same architecture as regular interfaces.
 
 So with annotation, the code mentioned above looks like as shown below and IDE shows error at the interface itself.
-
+```java
 	public class FunctionalInterface {
 		public static void main(String[] args) {
 			Printer printer = ()-> System.out.println("Hello India!");
@@ -46,6 +46,7 @@ So with annotation, the code mentioned above looks like as shown below and IDE s
 	interface Printer{
 		abstract void print();
 	}
+```
 	
 I am adding a screenshot rather than code snippet to show how IDE shows the error when we add another abstract method to the interface.
 

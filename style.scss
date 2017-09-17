@@ -41,7 +41,6 @@ $blur-depth: 3px;
 }
 
 body {
-  background-image: url('images/sports.png');
   color: $darkGray;
 }
 
@@ -218,12 +217,12 @@ img {
   padding-right: 10px;
 
   blockquote {
-    margin: 1.8em .8em;
-    border-left: 1px solid #67b168;
+    margin: 2.8em .8em;
+    border-left: 2px groove #1fff57;
     padding: 0.1em 1em;
-    color: $gray;
-    font-size: 12px;
-    font-style: italic;
+    color: #54aca6;
+    font-size: 13px;
+
   }
 
   .comments {
@@ -270,6 +269,7 @@ footer {
 
 .blue-box:hover {
   background-color: #fcf8e3;
+  opacity: 0.8;
 }
 
 .blog-box .bottom {
@@ -289,16 +289,54 @@ footer {
   float: left;
 }
 
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";
 
-.svg-icon {
-  opacity: 0.6;
-
+//Bottom section:starts
+.bottom-section {
+  background-color: #ecf1ea;
+  position: absolute;
+  width: 100%;
+  padding-top: 10px;
 }
 
+.column-section {
+  font-family: Tahoma;
+}
+
+.media-heading {
+  font-weight: bold;
+}
+
+.logo-section {
+  text-transform: uppercase;
+}
+
+.bottom-section a {
+  color: #1b6d85;
+  text-decoration: none;
+}
+
+.bottom-section a:hover {
+  color: #8c8c8c;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+  background-color: #faebcc;
+}
+//Bottom section:ends
+
+
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+
+@import "svg-icons";
+@import "highlights";
+.svg-icon {
+  opacity: 0.6;
+}
 .svg-icon:hover {
   opacity: 1;
 }

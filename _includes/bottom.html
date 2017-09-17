@@ -1,44 +1,4 @@
 <hr/>
-<style>
-    .bottom-section {
-        background-color: #ecf1ea;
-        position: absolute;
-        width: 100%;
-        padding-top: 10px;
-    }
-
-    .column-section {
-        border-right: 1px groove #4cae4c;
-        border-top: 1px dotted;
-        border-left: 1px dotted #449d44;
-        border-radius: 50%;
-        font-family: Tahoma;
-    }
-
-    .media-heading {
-        font-weight: bold;
-    }
-
-    .logo-section {
-        text-transform: uppercase;
-    }
-
-    .bottom-section a {
-        color: #1b6d85;
-        text-decoration: none;
-    }
-
-    .bottom-section a:hover {
-        color: #8c8c8c;
-    }
-
-    .scroll-top {
-        position: fixed;
-        bottom: 10px;
-        right: 0;
-        background-color: #faebcc;
-    }
-</style>
 <div class="container-fluid bottom-section">
     <div class="row">
         {% for column in {{site.data.site.allLinks.links}} %}

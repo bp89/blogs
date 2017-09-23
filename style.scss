@@ -40,10 +40,6 @@ $blur-depth: 3px;
   width: $banner-width;
 }
 
-body {
-  color: $darkGray;
-}
-
 table {
   display: table;
   border-collapse: separate;
@@ -91,6 +87,7 @@ img {
   background: $lightGray;
 }
 
+
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
@@ -106,10 +103,6 @@ img {
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
-
-//
-// .masthead
-//
 
 .masthead {
   padding: 20px 0;
@@ -138,7 +131,7 @@ img {
 }
 
 .banner-text {
-  color: #faff35;
+  color: #d8e1ff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -160,6 +153,15 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+}
+
+.office-details{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.details{
+  margin-bottom: 10px;
+  color: #5e5e5e;
 }
 
 .site-description {
@@ -289,17 +291,35 @@ footer {
   float: left;
 }
 
-
 //Bottom section:starts
 .bottom-section {
-  background-color: #ecf1ea;
+  background-color: #f9fdff;
   position: absolute;
   width: 100%;
   padding-top: 10px;
+  text-transform: capitalize;
 }
 
-.column-section {
-  font-family: Tahoma;
+.column-section{
+  padding-right: 20px;
+
+
+}
+.navbar-blue {
+  background-color: #68a1ff;
+  border-color: #878bff;
+  color: black;
+}
+.menu-item {
+  border-bottom: 1px groove #f8f2fb;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  color: #565656;
+  a:hover{
+    text-decoration: no-underline;
+  }
 }
 
 .media-heading {
@@ -325,9 +345,8 @@ footer {
   right: 0;
   background-color: #faebcc;
 }
+
 //Bottom section:ends
-
-
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
@@ -337,6 +356,7 @@ footer {
 .svg-icon {
   opacity: 0.6;
 }
+
 .svg-icon:hover {
   opacity: 1;
 }

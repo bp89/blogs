@@ -10,11 +10,6 @@ body {
 p {
   line-height: 1.75; }
 
-a {
-  color: #fed136; }
-  a.active, a:active, a:focus, a:hover {
-    color: #fec503; }
-
 h1,
 h2,
 h3,
@@ -42,23 +37,6 @@ section {
 @media (min-width: 768px) {
   section {
     padding: 50px 0; } }
-
-::-moz-selection {
-  background: #fed136;
-  text-shadow: none; }
-
-::selection {
-  background: #fed136;
-  text-shadow: none; }
-
-img::selection {
-  background: transparent; }
-
-img::-moz-selection {
-  background: transparent; }
-
-body {
-  -webkit-tap-highlight-color: #fed136; }
 
 #mainNav {
   background-color: #222222; }

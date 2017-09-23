@@ -1,8 +1,8 @@
 ---
 links:
-  - title: 'Know Us'
+  - title: 'Soft IV'
     items:
-      - title: 'About'
+      - title: 'About Us'
         relativeUrl: 'about'
         description: 'Know about us.'
       - title: 'Leadership'
@@ -39,14 +39,17 @@ links:
         relativeUrl: 'categories'
         description: 'Different Categories that we share our knowledge in'
 
-  - title: 'Connect with Us'
+  - title: 'Help'
     items:
       - title: 'Career'
         relativeUrl: 'career'
         description: 'Work with us.'
-      - title: 'Hire a Service'
+      - title: 'Request Service'
         relativeUrl: '/hireUs'
         description: 'Hire us to build a better Digital world for you'
-      - title: 'Queries & Concerns'
+      - title: 'FAQ'
+        relativeUrl: 'queries'
+        description: 'Feel free to share your thoughts, queries or concerns.'
+      - title: 'Contact Us'
         relativeUrl: 'queries'
         description: 'Feel free to share your thoughts, queries or concerns.'

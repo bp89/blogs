@@ -4,7 +4,7 @@ Following are the steps to run the application:-
 
 1. Open terminal and go to project root. Run following command to build the application
 
->jekyll build --watch
+> jekyll build --watch
 
 To run incremental use --incremental as option.
 

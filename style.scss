@@ -87,7 +87,6 @@ img {
   background: $lightGray;
 }
 
-
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
@@ -155,11 +154,12 @@ img {
   letter-spacing: 1px;
 }
 
-.office-details{
+.office-details {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.details{
+
+.details {
   margin-bottom: 10px;
   color: #5e5e5e;
 }
@@ -300,16 +300,17 @@ footer {
   text-transform: capitalize;
 }
 
-.column-section{
+.column-section {
   padding-right: 20px;
 
-
 }
+
 .navbar-blue {
   background-color: #68a1ff;
   border-color: #878bff;
   color: black;
 }
+
 .menu-item {
   border-bottom: 1px groove #f8f2fb;
   padding-bottom: 5px;
@@ -317,7 +318,7 @@ footer {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 10px;
   color: #565656;
-  a:hover{
+  a:hover {
     text-decoration: no-underline;
   }
 }
@@ -344,6 +345,48 @@ footer {
   bottom: 10px;
   right: 0;
   background-color: #faebcc;
+}
+
+.page-heading {
+  text-align: center;
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: xx-large;
+  color: #555555;
+}
+
+.service {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-right: 20px;
+  margin-top: 30px;
+  border-bottom: 0.1em solid #b5f9e5;
+  border-right: 0.1em solid #b5f9e5;
+
+}
+
+.service:hover {
+  opacity: 0.7;
+  background-color: #fff2ef;
+  box-shadow: 5px 10px 20px #ff1d62;
+  text-shadow: 0 0 3px #ffb562;
+
+  .service-image{
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.service-image {
+  opacity: 0.7;
+  width: 64px;
+  height: 64px;
+}
+
+.service-image:hover {
+  opacity: 1;
+
 }
 
 //Bottom section:ends

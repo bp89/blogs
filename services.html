@@ -1,39 +1,35 @@
 ---
 layout: site
-title: Our Services
+title: Services
 ---
 
 <div class="container-fluid">
-    <div class="row-fluid ">
-        <div class="col-md-4 ">
-            <img src="/images/devops.png" class="img-rounded" style="height: 250px;width: 350px">
-        </div>
-        <div class="col-md-4">
-            <img src="/images/seo.png" class="img-rounded" style="height: 250px;width: 250px">
-        </div>
-        <div class="col-md-4">
-            <img src="/images/web-dev.png" class="img-rounded" style="height: 250px;width: 250px">
-        </div>
-    </div>
-    <div class="row-fluid">
-        <div class="col-md-4">
 
-            <div class="text-center alert-success">
-                Dev Ops
-            </div>
-
-        </div>
-        <div class="col-md-4 text-center">
-            <div class="text-center alert-success">
-                SEO
-            </div>
-        </div>
-        <div class="col-md-4 text-center">
-            <div class="text-center alert-success">
-                Web Development
-            </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> Our Services</div>
+            <hr>
         </div>
     </div>
 
+    {% for service in {{site.data.site.allServices.services}} %}
+    <div class="row">
+        {% for item in service.row %}
+        <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 service">
 
+            <img src="{{site.baseurl}}/images/services/{{item.icon-url}}" class="service-image">
+            <h3 class="title">{{item.title}}</h3>
+            <div class="text">
+                <p>
+                    {{item.description}}
+                </p>
+            </div>
+            <a href="{{item.relativeUrl}}" id="services_" rel="nofollow">
+                <span class="cta">Read More</span>
+                </span>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
 </div>

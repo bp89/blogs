@@ -6,7 +6,7 @@
             <div class="media-heading">{{column.title}}</div>
             <ul class="clearfix menu">
                 {% for item in column.items %}
-                <li class="menu-item"><a href="{{ site.baseurl }}/{{item.relativeUrl}}">{{item.title}}</a></li>
+                <li class="menu-item" ><a href="{{ site.baseurl }}/{{item.relativeUrl}}" title="{{item.description}}">{{item.title}}</a></li>
                 {% endfor %}
             </ul>
         </div>

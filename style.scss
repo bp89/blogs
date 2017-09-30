@@ -355,6 +355,14 @@ footer {
   color: #555555;
 }
 
+.page-description{
+  font-family: 'Bitstream Vera Sans Mono', 'Courier', monospace;
+  font-size: medium;
+  color: #5e5e5e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
 .service {
   text-align: center;
   padding-bottom: 50px;
@@ -369,13 +377,9 @@ footer {
 .service:hover {
   opacity: 0.7;
   background-color: #fff2ef;
-  box-shadow: 5px 10px 20px #ff1d62;
+  box-shadow: 5px 10px 30px #ff1d62;
   text-shadow: 0 0 3px #ffb562;
 
-  .service-image{
-    width: 70px;
-    height: 70px;
-  }
 }
 
 .service-image {

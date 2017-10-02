@@ -3,36 +3,36 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Services</h2>
-                <h3 class="section-subheading text-muted">We serve a better future.</h3>
+                <h3 class="section-subheading text-muted">We are an IT innovation organisation providing E2E
+                    solutions. We serve a better tomorrow by our by leveraging the user experience using our cutting
+                    edge engineering and automation.</h3>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
-                <h4 class="service-heading">E-Commerce</h4>
-                <p class="text-muted">We specialize in e-commerce application development. With us rest assured to get
-                    into market very quickly.</p>
+
+        {% for service in {{site.data.site.allServices.services}} limit:1 offset:0 %}
+        <div class="row">
+            {% for item in service.row %}
+            <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 service">
+
+                <img src="{{site.baseurl}}/images/services/{{item.icon-url}}" class="service-image">
+                <h3 class="title">{{item.title}}</h3>
+                <div class="text">
+                    <p>
+                        {{item.description}}
+                    </p>
+                </div>
+                <a href="{{item.relativeUrl}}" id="services_" rel="nofollow">
+                    <span class="cta">Read More</span>
+                    </span>
+                </a>
             </div>
-            <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-                <h4 class="service-heading">Web Development</h4>
-                <p class="text-muted">We create your personalized web application by understanding your requirement and
-                    business better.</p>
-            </div>
-            <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
-                <h4 class="service-heading">DevOps</h4>
-                <p class="text-muted">Out of box devops services to deploy and manage your applications on cloud in one
-                    click.</p>
+            {% endfor %}
+        </div>
+        {% endfor %}
+
+        <div class="row view-more-row">
+            <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 text-center">
+                <a href="services" class="btn btn-lg view-more-btn ">View all services</a>
             </div>
         </div>
     </div>

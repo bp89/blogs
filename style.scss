@@ -199,7 +199,7 @@ img {
 .btn-outline-info:hover {
   background-image: none;
   background-color: #d0e9c6;
-  border-color: #5cb85c;
+  border-color: #80b880;
 }
 
 .entry-header {
@@ -355,7 +355,7 @@ footer {
   color: #555555;
 }
 
-.page-description{
+.page-description {
   font-family: 'Bitstream Vera Sans Mono', 'Courier', monospace;
   font-size: medium;
   color: #5e5e5e;
@@ -363,6 +363,7 @@ footer {
   padding-bottom: 30px;
   text-align: center;
 }
+
 .service {
   text-align: center;
   padding-bottom: 50px;
@@ -390,6 +391,27 @@ footer {
 
 .service-image:hover {
   opacity: 1;
+
+}
+
+.view-more-row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.view-more-btn {
+  background-color: #d0e9c6;
+  border: 1px solid #ff201e;
+  color: #2b542c;
+
+}
+
+.view-more-btn:hover {
+  border:1px solid #ff3d58;
+  background-color: #ff9c61;
+  box-shadow: 3px 3px 5px #edae3e;
+  text-shadow: #d0e9c6;
+  color: #ffffff;
 
 }
 

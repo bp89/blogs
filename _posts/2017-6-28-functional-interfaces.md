@@ -13,16 +13,18 @@ You could also name them as SAM, i.e., Single Abstract Method interfaces. Java 8
 
 Let us understand it through an example. Suppose we have to write a program to print “Hello India!” A simple implementation using Lambda expressions could be:
 	
-	public class FunctionalInterface {
-		public static void main(String[] args) {
-			Printer printer = ()-> System.out.println("Hello India!");
-			printer.print();
-		}
-	}
- 
-	interface Printer{
-		abstract void print();
-	}
+```java
+public class FunctionalInterface {
+    public static void main(String[] args) {
+        Printer printer = ()-> System.out.println("Hello India!");
+        printer.print();
+    }
+}
+
+interface Printer{
+    abstract void print();
+}
+```
 
 Above will successfully print the desired output:
 

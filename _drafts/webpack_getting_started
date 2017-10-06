@@ -1,0 +1,102 @@
+---
+title:
+tags: 
+
+---
+
+Single page applications are in trend nowadays. To create such applications usually we need a single javascript with everything inside it and an HTML page. 
+While it is a  very simple strcture, developers never prefer to put everything inside a single JS file for multiple reasons. Some of the reasons are:-
+
+1. Maintenance overhead to manage the single js file.
+2. Single large js file is not easy to traverse or parse
+3. It might not be readbale to developers.
+
+Hence, the application is always divided into smaller js files usually denoted as Modules. These module files should follow SRP - **Single Responsibility Principle**..
+
+Now, these files needs to be bundled into one js file. This job is done by a bundler. **Webpack** is an example of such module bundler.
+
+Webpack recursively builds a dependency graph  that includes all modules your application need inside one json file. Usually bundling is done in single js file. But there could be
+some modules that might not be required immidiately and hence, could be divided into more than one bundle files.
+
+Also, you could bundle images inside the js file for a image size cap. But better not to think about it at this stage.
+
+Let's see a working example of webpack.
+
+webpack needs a configuration file named as  **webpack.config.js**. It should be put under your projects root. Below is a sample webpack config file:-
+
+```javascript 1.8
+const path = require('path');
+
+module.exports = {
+  entry: './path/to/my/entry/file.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'my-first-webpack.bundle.js'
+  }
+};
+```
+
+We'll discuss creating this file in detail. To get started let's create a sample application.
+
+Assume we are using node package manager i.e. NPM. Create a folder say **learn-webpack**. Inside this run 
+
+> npm init
+
+Just press `Enter` and let this command finish. This will add a **package.json** in root. But we won't go into details of npm and focus on webpack.
+
+Hence, you could read more about npm [here](https://docs.npmjs.com/getting-started/what-is-npm).
+
+Create an empty js file named **webpack.config.js**. 
+
+Let's keep it empty for now and create some prerequisite part of application. 
+
+Let's add a folder named `app` inside root folder. Here create a js file say `index.js`. It could look like below:-
+
+
+```javascript 1.8
+var sum = add(10, 20);
+console.log("Sum is: "+sum);
+```
+
+Here, we don't know from where this sum method has come. Let's assume we have another js file say **operations.js**.
+
+```javascript 1.8
+var sum = function(number1, number2){
+    return number1 + number2;
+}
+```
+
+But, wait our index.js don't know operations.js and how to use it. Let's fix this first. JS has different module building sytems avaiable in market. Few examples are:-
+
+CommonJS,
+AMD,
+ES2015
+
+We'll use ES2015 and build whole application around it.
+
+So our **operations.js** will be as below:-
+
+```javascript 1.8
+var sum = function(number1, number2){
+    return number1 + number2;
+}
+export default sum;
+```
+and **operations.js** will be as below:-
+
+```javascript 1.8
+var {add} = require('operations')
+var sum = add(10, 20);
+console.log("Sum is: "+sum);
+```
+
+Here, we have imported the add method from operations.js using require. D
+
+We'll update our `package.json` and `webpack.config.js` later for dependencies and configurations as we go.
+
+
+
+
+
+
+

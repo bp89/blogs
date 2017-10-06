@@ -19,11 +19,6 @@ $blur-depth: 3px;
   background-image: url("images/carousal-images/banner-1.jpg");
   height: $banner-height;
   width: $banner-width;
-  //-webkit-filter: blur($blur-depth);
-  //-moz-filter: blur($blur-depth);
-  //-o-filter: blur($blur-depth);
-  //-ms-filter: blur($blur-depth);
-  //filter: blur($blur-depth);
 }
 
 .banner-background-2 {

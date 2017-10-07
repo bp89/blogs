@@ -48,11 +48,9 @@ url: http://softiv.faadudeveloper.com
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
+port:    4000
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
+paginate_path: /page:num
 permalink: /:title/
 
 # Jekyll 3 now only supports Kramdown for Markdown

@@ -22,7 +22,7 @@ layout: default
     <div class="tags">
         <strong>Tags:</strong>
         {% for tag in page.tags%}
-        <a href="{{site.baseurl}}/tag/{{tag}}" class="btn btn-outline-info">{{tag}}</a>
+        <a href="{{site.baseurl}}/tag/{{tag | downcase}}" class="btn btn-outline-info">{{tag}}</a>
         {% endfor %}
     </div>
 

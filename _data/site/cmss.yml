@@ -1,0 +1,17 @@
+---
+cmss-items:
+  - title: 'Infra'
+    row:
+      - title: 'Cloud Services Management'
+        icon-url: 'csm.png'
+        description: 'Manage Infrastructure Assets Hosted on Cloud'
+      - title: 'Linux Services Management'
+        icon-url: 'lms.png'
+        description: 'Comprehensive linux server management, health status reports & availability'
+      - title: 'Database Services Management'
+        icon-url: 'cmss.png'
+        description: 'Performance Optimizations, replica, automated backup services and more'
+      - title: 'Security Services Management'
+        icon-url: 'dms.png'
+        description: 'Comprehensive Security Management Suite for Cloud hosted infrastructure'
+

@@ -1,0 +1,25 @@
+---
+cms-items:
+  - title: 'Infra'
+    row:
+      - title: 'Hosting'
+        icon-url: 'ch.png'
+        description: 'Hassle free management of Infrastructure Assets Hosted on Cloud '
+      - title: 'Automated Infrastructure'
+        icon-url: 'ai.png'
+        description: 'Automated infrastrcture to make all phases of software lifecycle one click affair'
+      - title: 'Cloud Managed Services Suite'
+        icon-url: 'cmss.png'
+        description: 'Linux/AWS Server Managed Services, Database Servers Managed Services and Security Managed Services'
+
+  - title: 'Trust'
+    row:
+      - title: 'SLA Adherence'
+        icon-url: 'sla.png'
+        description: 'Ensured adherence to Services License Agreement effectively from day one'
+      - title: 'Reporting'
+        icon-url: 'reporting.png'
+        description: 'Comprehensive Reporting on Server/ Application Health & Availability & performance optimization'
+      - title: 'Reduced Infra Cost'
+        icon-url: 'cc.png'
+        description: 'Use Cloud Managed services to reduce cost of IT infrastructure by 30%'

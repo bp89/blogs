@@ -3,7 +3,7 @@ services:
   - title: 'Infra'
     row:
       - title: 'Cloud Managed Services'
-        relativeUrl: 'about'
+        relativeUrl: 'cms'
         icon-url: 'cms.png'
         description: 'Augment performance and uptime via cloud platforms and 24X7 available team'
       - title: 'Product Engineering'

@@ -1,0 +1,25 @@
+---
+pe-items:
+  - title: 'Infra'
+    row:
+      - title: 'Product Consulting'
+        icon-url: 'pc.png'
+        description: 'We provide end to end consulting and advisory services on software product ideation, launch, GTM strategy and product roadmap.'
+      - title: 'Product Architecture'
+        icon-url: 'pa.png'
+        description: 'We build design & architecture of the application in a way that it incorporates evolving business needs.'
+      - title: 'Product Design & UX'
+        icon-url: 'pdux.png'
+        description: 'Our design studio maps user journey, defines user flow, creates a wireframe and develops user experience design that engages and delights end users.'
+
+  - title: 'Trust'
+    row:
+      - title: 'Product Development'
+        icon-url: 'pd.png'
+        description: 'Our software product development services ensure iterative development using razor-edge technologies for faster time to market, robustness, and scale.'
+      - title: 'Quality Assurance'
+        icon-url: 'qa.png'
+        description: 'Our software testing frameworks and methodology use automation frameworks and solutions to guarantee superior product quality.'
+      - title: 'DevOps'
+        icon-url: 'devops.png'
+        description: 'Our DevOps team works closely with the development team to automate end to end delivery pipeline'

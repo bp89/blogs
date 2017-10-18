@@ -1,0 +1,96 @@
+---
+layout: site
+title: Cloud Managed Services
+---
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> Product Engineering</div>
+            <div class="page-description">
+                Faster time to market, the best customer experience and faster evolution amid
+                uncertainties are the top challenges of disruptive product companies, start-ups and internet
+                businesses. Our software product engineering services are designed to leverage product development and
+                bring business agility.
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> We Follow Agile</div>
+            <div class="page-description">
+                <img src="{{site.baseurl}}/images/services/pe/agile2.png">
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> Get to market very quickly</div>
+            <div class="page-description">
+                <img src="{{site.baseurl}}/images/services/pe/faster-deveopment.png">
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> User Experience is Critical</div>
+            <div class="page-description">
+                User experience is very critical for any product development. We bind UX with your product roadmap and
+                make it visible from day one.
+                <p><img src="{{site.baseurl}}/images/services/pe/ux.png"></p>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> Scaled Scrum-team for your product need</div>
+            <div class="page-description">
+                A well organized and well sized scrum team size is very important. If team is small development would be
+                slower. If team is large it would be hard to manage again slower. A scaled scrum team would be faster,
+                well organized and suiting your needs.
+                <p><img src="{{site.baseurl}}/images/services/pe/scaled-scrum.png"></p>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> Our Offerings</div>
+            <div class="page-description">
+                24 x 7 x 365 Managed IT Infrastructure Services
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    {% for service in site.data.site.product-engineering.pe-items %}
+    <div class="row">
+        {% for item in service.row %}
+        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 service">
+
+            <img src="{{site.baseurl}}/images/services/pe/{{item.icon-url}}" class="service-image">
+            <h3 class="title">{{item.title}}</h3>
+            <div class="text">
+                <p>
+                    {{item.description}}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+
+    <div class="row">
+        <br/>
+    </div>
+
+</div>

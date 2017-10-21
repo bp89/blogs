@@ -1,13 +1,13 @@
 ---
 layout: site
-title: Cloud Managed Services
+title: Product Engineering
 ---
 
 <div class="container-fluid">
 
     <div class="row">
         <div class="col-md-12">
-            <div class="page-heading"> Product Engineering</div>
+            <div class="page-heading"> DevOps as a Service</div>
             <div class="page-description">
                 Faster time to market, the best customer experience and faster evolution amid
                 uncertainties are the top challenges of disruptive product companies, start-ups and internet
@@ -16,6 +16,38 @@ title: Cloud Managed Services
             </div>
             <hr>
         </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> Our Offerings</div>
+            <div class="page-description">
+                Complete product solution under one roof
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    {% for service in site.data.site.product-engineering.pe-items %}
+    <div class="row">
+        {% for item in service.row %}
+        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 service">
+
+            <img src="{{site.baseurl}}/images/services/pe/{{item.icon-url}}" class="service-image">
+            <h3 class="title">{{item.title}}</h3>
+            <div class="text">
+                <p>
+                    {{item.description}}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+
+    <div class="row">
+        <br/>
     </div>
 
     <div class="row">
@@ -27,15 +59,7 @@ title: Cloud Managed Services
             <hr>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="page-heading"> Get to market very quickly</div>
-            <div class="page-description">
-                <img src="{{site.baseurl}}/images/services/pe/faster-deveopment.png">
-            </div>
-            <hr>
-        </div>
-    </div>
+
     <div class="row">
         <div class="col-md-12">
             <div class="page-heading"> User Experience is Critical</div>
@@ -61,36 +85,14 @@ title: Cloud Managed Services
         </div>
     </div>
 
-
     <div class="row">
         <div class="col-md-12">
-            <div class="page-heading"> Our Offerings</div>
+            <div class="page-heading"> Get to market very quickly</div>
             <div class="page-description">
-                24 x 7 x 365 Managed IT Infrastructure Services
+                <img src="{{site.baseurl}}/images/services/pe/faster-deveopment.png">
             </div>
             <hr>
         </div>
-    </div>
-
-    {% for service in site.data.site.product-engineering.pe-items %}
-    <div class="row">
-        {% for item in service.row %}
-        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 service">
-
-            <img src="{{site.baseurl}}/images/services/pe/{{item.icon-url}}" class="service-image">
-            <h3 class="title">{{item.title}}</h3>
-            <div class="text">
-                <p>
-                    {{item.description}}
-                </p>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-    {% endfor %}
-
-    <div class="row">
-        <br/>
     </div>
 
 </div>

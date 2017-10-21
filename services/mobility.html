@@ -1,0 +1,121 @@
+---
+layout: site
+title: Mobility Engineering
+---
+
+<style>
+    .service-image-large {
+        height: 300px;
+        width: 300px;
+    }
+</style>
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> Mobility</div>
+            <div class="page-description">
+                Our mobility solutions aim to provide compelling multi-channel UX after extensive user research, design
+                modeling and tailored application development for all platforms.
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="page-heading"> Mobile Application Design</div>
+            <div class="page-description" style="text-align: left">
+                We design beautifully tailored mobile applications with an eye catching experience and high usability
+                expectation match.
+                We layer down your application like a book reading or navigation through is made faster and easier.
+            </div>
+            <hr/>
+        </div>
+        <div class="col-md-6">
+            <img src="{{site.baseurl}}/images/services/mobility/mobile-app-design.png"/>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-6">
+            <img src="{{site.baseurl}}/images/services/mobility/app-dev.png"/>
+        </div>
+        <div class="col-md-6">
+            <div class="page-heading"> Android Application Development</div>
+            <div class="page-description" style="text-align: left">
+                We design beautifully tailored mobile applications with an eye catching experience and high usability
+                expectation match.
+                We layer down your application like a book reading or navigation through is made faster and easier.
+            </div>
+            <hr/>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="page-heading"> IOS Application Development</div>
+            <div class="page-description" style="text-align: left">
+                We design beautifully tailored mobile applications with an eye catching experience and high usability
+                expectation match.
+                We layer down your application like a book reading or navigation through is made faster and easier.
+            </div>
+            <hr/>
+        </div>
+        <div class="col-md-6">
+            <img src="{{site.baseurl}}/images/services/mobility/ios-dev.png"/>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="page-heading"> Mobile Automation Testing</div>
+            <div class="page-description" style="text-align: left">
+                We design beautifully tailored mobile applications with an eye catching experience and high usability
+                expectation match.
+                We layer down your application like a book reading or navigation through is made faster and easier.
+            </div>
+            <hr/>
+        </div>
+        <div class="col-md-6">
+            <img src="{{site.baseurl}}/images/services/mobility/testing.png"/>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> Our Offerings</div>
+            <div class="page-description">
+                We provide extensive mobility solutions including UX design, development &
+                testing.
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    {% for service in site.data.site.mobility.mobility-items %}
+    <div class="row">
+        {% for item in service.row %}
+        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 service">
+
+            <img src="{{site.baseurl}}/images/services/mobility/{{item.icon-url}}" class="service-image">
+            <h3 class="title">{{item.title}}</h3>
+            <div class="text">
+                <p>
+                    {{item.description}}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+
+    <div class="row">
+        <br/>
+    </div>
+
+
+</div>

@@ -18,7 +18,7 @@ title: Site Map
 
   {% for post in site.pages %}
   <url>
-    <loc>http://blogs.faadudeveloper.com{{site.baseurl}}{{post.url}}</loc>
+    <loc>{{site.url}}{{site.baseurl}}{{post.url}}</loc>
     <lastmod>2017-08-06T03:10:18+00:00</lastmod>
     <changefreq>always</changefreq>
   </url>

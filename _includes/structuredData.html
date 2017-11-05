@@ -8,7 +8,7 @@
    "genre":"{{ include.category }}",
    "keywords":"{{ include.keywords }}",
    "wordCount":"{{ wordcount }}",
-   "url":"http://blogs.faadudeveloper.com{{ include.link }}",
+   "url":"{{site.url}}{{ include.link }}",
    "datePublished":"{{ include.date | | date: '%Y-%m-%d' }}",
    "author":{  
       "@type":"Person",
@@ -31,20 +31,20 @@
       ],
       "logo": {
   		"@type": "ImageObject",
-  		"contentUrl": "http://blogs.faadudeveloper.com/images/logo/cube.png",
-  		  "url": "http://blogs.faadudeveloper.com/"
+  		"contentUrl": "{{site.url}}/images/logo/cube.png",
+  		  "url": "{{site.url}}/"
     }
    },
    "image":{
       "@type":"ImageObject",
       "contentUrl":"https://lh3.googleusercontent.com/-MbWhC1JcC4o/WXrFQUAibtI/AAAAAAAAAcw/yvqrHl9Mq6gDACk0RFYBCAOPyO29MjgpwCEwYBhgL/w140-h140-p/14470661_1239894476061950_8139270584922670344_n.jpg",
-      "url":"http://blogs.faadudeveloper.com/",
+      "url":"{{site.url}}/",
       "height":"450",
       "width":"1000"
    },
    "mainEntityOfPage":{  
       "@type":"WebPage",
-      "@id":"http://blogs.faadudeveloper.com{{ include.link }}"
+      "@id":"{{site.url}}{{ include.link }}"
    },
    "articleBody":"{{ include.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}"
 }

@@ -554,8 +554,8 @@ section .subtitle-half h5 {
 
 .navbar {
   //border-bottom: 1px solid $primary;
-  -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
-  transition: width 2s, height 4s;
+  -webkit-transition: background-color 0.8s linear, -webkit-transform .5s;
+  transition: background-color 0.8s linear, transform .5s;
 }
 
 .navbar-inverse .navbar-nav > .active a {
@@ -583,6 +583,8 @@ section .subtitle-half h5 {
 .top-menu-bg {
   background-color: #ff9e21;
   font-weight: 400;
+  -webkit-transform: rotate(360deg); /* Safari */
+  transform: rotate(360deg);
 }
 
 .row {

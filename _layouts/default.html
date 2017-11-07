@@ -4,8 +4,8 @@
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} : Blogs</title>
     {% include meta.html %}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css"/>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css"/>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/js/bootstrap.min.js"/>
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
           href="{{ site.baseurl }}/feed.xml"/>
@@ -17,9 +17,11 @@
     {% include menu.html %}
 </div>
 
-{% include nav-breadcrumbs.html %}
+<div id="main" role="main" class="container-fluid" style="padding-bottom: 60px">
+    <div class="row">
+        {% include carousal.html%}
+    </div>
 
-<div id="main" role="main" class="container-fluid" style="padding-bottom: 70px">
     <div class="row">
         <!-- Left section of the central page: starts-->
         <div class="col-md-9">
@@ -84,6 +86,30 @@ date=page.date
 <!--};-->
 <!--element.followTo(element.height());-->
 <!--</script>-->
+
+<script>
+    /*---------------------------------------------*
+     * Menu Background Change
+     ---------------------------------------------*/
+
+    var windowWidth = $(window).width();
+    if (windowWidth > 757) {
+
+
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() >200) {
+                $('.navbar').fadeIn(200);
+                $('.navbar').addClass('top-menu-bg');
+
+            } else {
+
+                $('.navbar').removeClass('top-menu-bg');
+            }
+        });
+
+    }
+</script>
 </body>
 
 </html>

@@ -1,65 +1,41 @@
-<header id="home" class="sections">
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="col-md-12">
-                <div class="homepage-style">
-                    <div class="top-arrow hidden-xs text-center">
-                        <img src="{{site.baseurl}}/images/top-arrow.png" alt=""/>
-                    </div>
+<div class="slider-area">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"
+         data-interval="3000">
+        <!-- Indicators -->
 
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="unique-apps">
-                            <h2>DISRUPTIVE SERVICES </h2>
-                            <p>
-                                We provide out of box solution and high quality web products via our Agile production
-                                chain.
-                            </p>
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
 
-                            <div class="home-btn">
-                                <a class="btn btn-primary btn-lg" href="{{site.baseurl}}/services">View More <span><i class="fa fa-paper-plane"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+        </ol>
 
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="slider-area">
-                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"
-                                 data-interval="3000">
-                                <!-- Indicators -->
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                {% include slide-1.html%}
+            </div>
 
-                                </ol>
+            <div class="item">
+                {% include home/slide-1.html %}
+            </div>
 
-                                <!-- Wrapper for slides -->
-                                <div class="carousel-inner" role="listbox">
+            <div class="item">
+                {% include slide-1.html%}
+            </div>
 
-                                    <div class="item active">
-                                        <img src="{{site.baseurl}}/images/slider-img.png" alt=""/>
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="{{site.baseurl}}/images/slider-img.png" alt=""/>
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="{{site.baseurl}}/images/slider-img.png" alt=""/>
-                                    </div>
-
-                                    <div class="item">
-                                        <img src="{{site.baseurl}}/images/slider-img.png" alt=""/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {% include nav-breadcrumbs.html %}
+            <div class="item">
+                {% include slide-1.html%}
             </div>
         </div>
+        <a class="carousel-control left" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
     </div>
-</header>
+</div>
+
+

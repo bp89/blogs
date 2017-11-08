@@ -450,6 +450,7 @@ section .subtitle-half h5 {
   opacity: 0.8;
   color: #fff;
   margin-top:0;
+  min-height: 650px;
 
 }
 
@@ -462,13 +463,17 @@ section .subtitle-half h5 {
 }
 
 .homepage-style .unique-apps h2 {
-  font-size: 35px;
-  font-weight: 500;
-  text-transform: uppercase;
+  font-size: 50px ;
+  font-family: "Apple SD Gothic Neo";
+  line-height: 1.2;
+  color: #fcfcfc;
+  font-weight: 300;
 }
-
-.homepage-style .slider-area {
-
+.homepage-style .unique-apps h4 {
+  font-family: "Apple SD Gothic Neo";
+  line-height: 1.2;
+  color: #fcfcfc;
+  font-weight: 200;
 }
 
 .scroll-top {
@@ -565,7 +570,7 @@ section .subtitle-half h5 {
 
 .navbar-inverse .navbar-nav > .active a:hover {
   background-color: transparent;
-  color: #fff;
+  color: #8f96ff;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -581,7 +586,7 @@ section .subtitle-half h5 {
 }
 
 .top-menu-bg {
-  background-color: #ff9e21;
+  background-color: #373739;
   font-weight: 400;
   -webkit-transform: rotate(360deg); /* Safari */
   transform: rotate(360deg);
@@ -590,4 +595,22 @@ section .subtitle-half h5 {
 .row {
   padding-bottom: 10px;
   padding-top: 10px;
+}
+
+.carousel-indicators{
+  left: 87%;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 94%;
+  bottom: 20%;
+  left: 0;
+  left: 75%;
+  font-size: 20px;
+  color: #ec9b92;
+  text-align: center;
+  text-shadow: 0 0px 0px rgba(0, 0, 0, 0.02);
+  background-color: rgba(0,0,0,0);
+  opacity: .5;
 }

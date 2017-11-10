@@ -5,6 +5,7 @@
 @import "reset";
 @import "variables";
 @import "agency";
+@import "navbar";
 
 /**************/
 /* BASE RULES */
@@ -301,12 +302,6 @@ footer {
 
 }
 
-.navbar-blue {
-  background-color: #68a1ff;
-  border-color: #878bff;
-  color: black;
-}
-
 .menu-item {
   border-bottom: 1px groove #f8f2fb;
   padding-bottom: 5px;
@@ -447,11 +442,7 @@ section .subtitle-half h5 {
 }
 
 .homepage-style {
-  padding-top: 100px;
-}
-
-.homepage-style .top-arrow img {
-  margin-top: 20px;
+  padding-top: 150px;
 }
 
 .homepage-style .unique-apps h2 {
@@ -540,48 +531,6 @@ section .subtitle-half h5 {
 .heading .title.arrow-left img {
   margin-top: 90px;
   margin-right: -10px;
-}
-
-/*Menubar Style*/
-
-.navbar-inverse {
-  background-color: transparent;
-  border: transparent;
-}
-
-.navbar {
-  //border-bottom: 1px solid $primary;
-  -webkit-transition: background-color 0.8s linear, -webkit-transform .5s;
-  transition: background-color 0.8s linear, transform .5s;
-}
-
-.navbar-inverse .navbar-nav > .active a {
-  background-color: transparent;
-  color: #a1ffa8;
-}
-
-.navbar-inverse .navbar-nav > .active a:hover {
-  background-color: transparent;
-  color: #8f96ff;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-  color: #f9faf8;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-family:'roboto', sans-serif;
-  letter-spacing:0;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover {
-  color: #fff;
-}
-
-.top-menu-bg {
-  background-color: #373739;
-  font-weight: 400;
-  -webkit-transform: rotate(360deg); /* Safari */
-  transform: rotate(360deg);
 }
 
 

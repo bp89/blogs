@@ -4,6 +4,7 @@
 // IMPORTS
 @import "reset";
 @import "variables";
+@import "agency";
 
 /**************/
 /* BASE RULES */
@@ -583,10 +584,6 @@ section .subtitle-half h5 {
   transform: rotate(360deg);
 }
 
-.row {
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
 
 .carousel-indicators{
   left: 87%;

@@ -3,11 +3,9 @@ layout: default
 title: Blogs
 ---
 
-
 <div class="posts container">
     {% assign items = "" %}
     {% for post in site.posts %}
-
         {% capture list_item %}
             {%
                 include blogListItem.html
@@ -16,13 +14,9 @@ title: Blogs
             %}
         {% endcapture %}
         {% assign items = items | append: list_item | append: "|||" %}
-
     {{list_item}}
     {% endfor %}
-
     {% assign items = items | split: "|||" | join: ',' %}
-
-
 </div>
 
 <script type="application/ld+json">

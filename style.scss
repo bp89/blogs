@@ -214,13 +214,14 @@ img {
 .post {
   background-color: white;
   padding-right: 10px;
+  padding-left: 10px;
 
   blockquote {
     margin: 2.8em .8em;
     border-left: 2px groove #1fff57;
     padding: 0.1em 1em;
     color: #54aca6;
-    font-size: 13px;
+    font-size: 15px;
 
   }
 
@@ -238,7 +239,7 @@ img {
     border-bottom: 1px solid;
   }
   .entry {
-    font-size: 13px;
+    font-size: 15px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 }

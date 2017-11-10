@@ -17,11 +17,12 @@
     {% include menu.html %}
 </div>
 
-<div id="main" role="main" class="container-fluid" style="padding-bottom: 60px">
+<div id="main" role="main" class="container-fluid" style="padding-bottom: 60px;">
     <div class="row">
         {% include carousals/blogs/carousal.html%}
     </div>
-
+    <br/>
+    <br/>
     <div class="row">
         <!-- Left section of the central page: starts-->
         <div class="col-md-9">
@@ -96,9 +97,8 @@ date=page.date
     if (windowWidth > 757) {
 
 
-
         $(window).scroll(function () {
-            if ($(this).scrollTop() >200) {
+            if ($(this).scrollTop() > 200) {
                 $('.navbar').fadeIn(200);
                 $('.navbar').addClass('top-menu-bg');
 

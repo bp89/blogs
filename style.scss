@@ -6,6 +6,7 @@
 @import "variables";
 @import "agency";
 @import "navbar";
+@import "carousal";
 
 /**************/
 /* BASE RULES */
@@ -15,27 +16,6 @@ $banner-opacity: 0.9;
 $banner-height: 500px;
 $banner-width: 100%;
 $blur-depth: 3px;
-
-.banner-background-1 {
-  opacity: $banner-opacity;
-  background-image: url("images/carousal-images/banner-1.jpg");
-  height: $banner-height;
-  width: $banner-width;
-}
-
-.banner-background-2 {
-  opacity: $banner-opacity;
-  background-image: url("images/carousal-images/banner-2.jpg");
-  height: $banner-height;
-  width: $banner-width;
-}
-
-.banner-background-3 {
-  opacity: $banner-opacity;
-  background-image: url("images/carousal-images/banner-3.jpg");
-  height: $banner-height;
-  width: $banner-width;
-}
 
 table {
   display: table;
@@ -473,6 +453,11 @@ section .subtitle-half h5 {
 .breadcrumbs {
   list-style: none;
   border-radius: 4px;
+  margin-top:220px;
+}
+
+.breadcrumbs a {
+  color: #ffffff;
 }
 
 .breadcrumbs > li {
@@ -532,23 +517,4 @@ section .subtitle-half h5 {
 .heading .title.arrow-left img {
   margin-top: 90px;
   margin-right: -10px;
-}
-
-
-.carousel-indicators{
-  left: 87%;
-}
-
-.carousel-control {
-  position: absolute;
-  top: 94%;
-  bottom: 20%;
-  left: 0;
-  left: 75%;
-  font-size: 20px;
-  color: #ec9b92;
-  text-align: center;
-  text-shadow: 0 0px 0px rgba(0, 0, 0, 0.02);
-  background-color: rgba(0,0,0,0);
-  opacity: .5;
 }

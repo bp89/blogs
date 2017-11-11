@@ -1,0 +1,63 @@
+---
+slides:
+  home:
+    - title: 'We build and manage disruptive web products and Internet-based businesses'
+      description: 'Product Engineering partner for Fortune 500 companies as well as Silicon Valley startups to build cloud-native products and applications'
+      viewMore: true
+      viewMoreLink: 'services'
+      class: active
+      imageName: 'banner-1.png'
+
+    - title: 'Customer experience lies at the center of every solution we develop'
+      description: 'We provide seamless customer experience across channels including web, mobile, tablet and TV through our UX led engineering'
+      viewMore: true
+      viewMoreLink: 'services'
+      imageName: 'banner-2.jpg'
+
+    - title: 'We digitally tranform businesses'
+      description: 'We transform businesses leveraging experience design, cutting-edge engineering and cloud experience'
+      viewMore: true
+      viewMoreLink: 'services'
+      imageName: 'banner-3.jpg'
+
+    - title: 'We digitally tranform businesses'
+      description: 'We transform businesses leveraging experience design, cutting-edge engineering and cloud experience'
+      viewMore: true
+      viewMoreLink: 'services'
+      imageName: 'banner-4.jpg'
+
+    - title: 'We collaborate, We  innovate'
+      description: 'We collaborate to understand the businesses and come up with innovative applications that leverage businesses'
+      viewMore: true
+      viewMoreLink: 'services'
+      imageName: 'banner-5.png'
+
+  services:
+    - title: 'We build and manage disruptive web products and Internet-based businesses'
+      description: 'Product Engineering partner for Fortune 500 companies as well as Silicon Valley startups to build cloud-native products and applications'
+      viewMore: true
+      viewMoreLink: 'services'
+
+  technologies:
+    - title: 'We build and manage disruptive web products and Internet-based businesses'
+      description: 'Product Engineering partner for Fortune 500 companies as well as Silicon Valley startups to build cloud-native products and applications'
+      viewMore: true
+      viewMoreLink: 'services'
+
+  blogs:
+    - title: 'We build and manage disruptive web products and Internet-based businesses'
+      description: 'Product Engineering partner for Fortune 500 companies as well as Silicon Valley startups to build cloud-native products and applications'
+      viewMore: true
+      viewMoreLink: 'services'
+
+  about:
+    - title: 'We build and manage disruptive web products and Internet-based businesses'
+      description: 'Product Engineering partner for Fortune 500 companies as well as Silicon Valley startups to build cloud-native products and applications'
+      viewMore: true
+      viewMoreLink: 'services'
+
+  contact-us:
+    - title: 'We build and manage disruptive web products and Internet-based businesses'
+      description: 'Product Engineering partner for Fortune 500 companies as well as Silicon Valley startups to build cloud-native products and applications'
+      viewMore: true
+      viewMoreLink: 'services'

@@ -1,35 +1,34 @@
-
-<style>
-    #home-4 {
-        background-image: url("../../images/carousal-images/banner-4.jpg");
-        opacity: 0.9;
-        color: #fff;
-        margin-top:0;
-        min-height: 650px;
-    }
-</style>
-<div class="container-fluid" id="home-4">
+<div class="container-fluid home" style="background-image: url('../../../images/carousal-images/home/{{slide.imageName}}');">
     <div class="row-fluid">
         <div class="col-md-12">
             <div class="homepage-style">
                 <div class="col-md-10">
                     <div class="unique-apps">
-                        <h2>Customer experience lies at the center of every solution we develop </h2>
+                        <h2>{{slide.title}}</h2>
                         <h4>
-                            We provide seamless customer experience across channels including web,
-                            mobile, tablet and TV through our UX led engineering
+                            {{slide.description}}
                         </h4>
 
+                        {% if slide.viewMore %}
                         <div class="home-btn left">
-                            <a class="btn btn-primary btn-lg" href="{{site.baseurl}}/services">
+                            <a class="btn btn-primary btn-lg" href="{{site.baseurl}}/services/product-engineering">
                                 View More
                                 <span><i class="fa fa-paper-plane"></i></span>
                             </a>
                         </div>
+                        {% endif %}
+
                     </div>
                 </div>
                 <div class="col-md-1"></div>
             </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                {% include nav-breadcrumbs.html %}
+            </div>
         </div>
     </div>
+
 </div>

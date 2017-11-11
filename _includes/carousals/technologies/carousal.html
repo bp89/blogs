@@ -10,12 +10,16 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                {% include carousals/services/slide-1.html%}
+            {% for slide in {{site.data.site.carousal.slides.technologies}} %}
+            <div class="item {{slide.class}}">
+                {%
+                include carousals/slide.html
+                slide=slide
+                %}
             </div>
+            {% endfor %}
         </div>
 
-        </a>
     </div>
 </div>
 

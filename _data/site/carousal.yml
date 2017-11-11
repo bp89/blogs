@@ -32,32 +32,33 @@ slides:
       viewMoreLink: 'services'
       imageName: 'banner-5.png'
 
+
   services:
-    - title: 'We build and manage disruptive web products and Internet-based businesses'
-      description: 'Product Engineering partner for Fortune 500 companies as well as Silicon Valley startups to build cloud-native products and applications'
-      viewMore: true
-      viewMoreLink: 'services'
+    - title: 'Customer experience and satisfaction lies at the core of every solution we develop'
+      description: 'We provide seamless customer experience across channels including web, mobile and devops which ensures great compliance to user expectations'
+      class: active
+      imageName: 'banner-1.gif'
 
   technologies:
-    - title: 'We build and manage disruptive web products and Internet-based businesses'
-      description: 'Product Engineering partner for Fortune 500 companies as well as Silicon Valley startups to build cloud-native products and applications'
-      viewMore: true
-      viewMoreLink: 'services'
+    - title: 'Technologies'
+      description: 'Product development done right, with breakthrough technologies and Agile processes'
+      imageName: 'banner-1.gif'
+      class: active
 
   blogs:
-    - title: 'We build and manage disruptive web products and Internet-based businesses'
-      description: 'Product Engineering partner for Fortune 500 companies as well as Silicon Valley startups to build cloud-native products and applications'
-      viewMore: true
-      viewMoreLink: 'services'
+    - title: 'Blogs'
+      description: 'We love sharing a lot'
+      class: active
+      imageName: 'banner-1.gif'
 
   about:
-    - title: 'We build and manage disruptive web products and Internet-based businesses'
-      description: 'Product Engineering partner for Fortune 500 companies as well as Silicon Valley startups to build cloud-native products and applications'
-      viewMore: true
-      viewMoreLink: 'services'
+    - title: 'About Us'
+      description: 'An enthusiastic team of innovative minds willing to transform your business'
+      class: active
+      imageName: 'banner-1.jpg'
 
   contact-us:
-    - title: 'We build and manage disruptive web products and Internet-based businesses'
-      description: 'Product Engineering partner for Fortune 500 companies as well as Silicon Valley startups to build cloud-native products and applications'
-      viewMore: true
-      viewMoreLink: 'services'
+    - title: 'Contact Us'
+      description: 'Connect with us and explore new possibilities with innovative and experienced team'
+      imageName: 'banner-1.jpg'
+      class: active

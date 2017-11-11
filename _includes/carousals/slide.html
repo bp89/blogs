@@ -1,5 +1,5 @@
 <div class="container-fluid home"
-     style="background-image: url('../../../images/carousal-images/home/{{slide.imageName}}');">
+     style='background-image: url("../../images/carousal-images/{{page.title | replace: " ", "-" | downcase }}/{{slide.imageName}}");'>
     <div class="row-fluid">
         <div class="col-md-12">
             <div class="homepage-style">
@@ -9,7 +9,6 @@
                         <h4>
                             {{slide.description}}
                         </h4>
-
                         {% if slide.viewMore %}
                         <div class="home-btn left">
                             <a class="btn btn-primary btn-lg" href="{{site.baseurl}}/services/product-engineering">
@@ -18,12 +17,10 @@
                             </a>
                         </div>
                         {% endif %}
-
                     </div>
                 </div>
                 <div class="col-md-1"></div>
             </div>
-
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -31,5 +28,4 @@
             </div>
         </div>
     </div>
-
 </div>

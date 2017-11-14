@@ -62,3 +62,14 @@ slides:
       description: 'Connect with us and explore new possibilities with innovative and experienced team'
       imageName: 'banner-1.jpg'
       class: active
+
+  cms:
+    - title: 'Cloud Managed Services'
+      description: 'Trust our Cloud Managed Services, ensure your business in all aspects'
+      imageName: 'banner-1.png'
+      class: active
+  pe:
+    - title: 'Product Engineering'
+      description: 'We engineer your product to built best in class solutions'
+      imageName: 'banner-1.png'
+      class: active

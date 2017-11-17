@@ -1,0 +1,45 @@
+/*Menubar Style*/
+
+.navbar-inverse {
+  background-color: transparent;
+  border: transparent;
+}
+
+.navbar {
+  //border-bottom: 1px solid $primary;
+  -webkit-transition: background-color 0.8s linear, -webkit-transform .5s;
+  transition: background-color 0.8s linear, transform .5s;
+}
+
+.navbar-inverse .navbar-nav > .active a {
+  background-color: transparent;
+  color: #a1ffa8;
+}
+
+.navbar-inverse .navbar-nav > .active a:hover {
+  background-color: transparent;
+  color: #8f96ff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #f9faf8;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family:'roboto', sans-serif;
+  letter-spacing:0;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #fff;
+}
+
+.top-menu-bg {
+  background-color: #28282d;
+  font-weight: 400;
+  -webkit-transform: rotate(360deg); /* Safari */
+  transform: rotate(360deg);
+}
+
+.navbar-header{
+  padding-left: 23px;
+}

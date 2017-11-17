@@ -1,0 +1,25 @@
+---
+mobility-items:
+  - title: 'Row1'
+    row:
+      - title: 'Mobile Application Design'
+        icon-url: 'mad.png'
+        description: 'We provide end to end consulting and advisory services on software product ideation, launch, GTM strategy and product roadmap.'
+      - title: 'Mobile Application Architecture'
+        icon-url: 'maa.png'
+        description: 'We build design & architecture of the application in a way that it incorporates evolving business needs.'
+      - title: 'IOS Application Development'
+        icon-url: 'ios.png'
+        description: 'Our design studio maps user journey, defines user flow, creates a wireframe and develops user experience design that engages and delights end users.'
+
+  - title: 'Row2'
+    row:
+      - title: 'Android Application Development'
+        icon-url: 'aad.png'
+        description: 'Our software product development services ensure iterative development using razor-edge technologies for faster time to market, robustness, and scale.'
+      - title: 'Mobile Automation Testing'
+        icon-url: 'mat.png'
+        description: 'Our software testing frameworks and methodology use automation frameworks and solutions to guarantee superior product quality.'
+      - title: 'Cross-plateform Development'
+        icon-url: 'cpd.png'
+        description: 'Our DevOps team works closely with the development team to automate end to end delivery pipeline'

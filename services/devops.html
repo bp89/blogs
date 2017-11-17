@@ -1,0 +1,80 @@
+---
+layout: site
+title: Cloud Managed Services
+---
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> DevOps</div>
+            <div class="page-description">
+                Right from assessing your current DevOps practices, setting up the automation, using the best tools for
+                process transformation to ongoing management of the delivery pipeline, we take care of it all.
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> We Follow Agile</div>
+            <div class="page-description">
+                <img src="{{site.baseurl}}/images/services/pe/agile2.png">
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> Get to market very quickly</div>
+            <div class="page-description">
+                <img src="{{site.baseurl}}/images/services/pe/faster-deveopment.png">
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> User Experience is Critical</div>
+            <div class="page-description">
+                User experience is very critical for any product development. We bind UX with your product roadmap and
+                make it visible from day one.
+                <p><img src="{{site.baseurl}}/images/services/pe/ux.png"></p>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"> Our Offerings</div>
+            <div class="page-description">
+                Innovative Product Engineering Services
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    {% for service in site.data.site.product-engineering.pe-items %}
+    <div class="row">
+        {% for item in service.row %}
+        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 service">
+
+            <img src="{{site.baseurl}}/images/services/pe/{{item.icon-url}}" class="service-image">
+            <h3 class="title">{{item.title}}</h3>
+            <div class="text">
+                <p>
+                    {{item.description}}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+
+    <div class="row">
+        <br/>
+    </div>
+
+</div>

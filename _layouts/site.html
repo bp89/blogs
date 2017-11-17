@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} : Blogs</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} </title>
+
     {% include meta.html %}
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css"/>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css"/>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/js/bootstrap.min.js"/>
+
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
           href="{{ site.baseurl }}/feed.xml"/>
+
     <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon/favicon.ico" type="image/x-icon">
     <link rel="icon" href="{{ site.baseurl }}/images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}/imagesapple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}/imagesapple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/imagesapple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/imagesapple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/imagesapple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/imagesapple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}/imagesapple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}/imagesapple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/imagesapple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="{{ site.baseurl }}/imagesandroid-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/imagesfavicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ site.baseurl }}/imagesfavicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/imagesfavicon-16x16.png">
-    <link rel="manifest" href="{{ site.baseurl }}/imagesmanifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ site.baseurl }}/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ site.baseurl }}/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="{{ site.baseurl }}/images/favicon/manifest.json">
+
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{{ site.baseurl }}/imagesms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="{{ site.baseurl }}/images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
 </head>
 <body>
 <div class="container">
     {% include menu.html %}
 </div>
 
-{% include nav-breadcrumbs.html %}
-
-<div id="main" role="main" class="container-fluid" style="padding-bottom: 70px">
+<div id="main" role="main" class="container-fluid" style="padding-bottom: 60px">
     <div class="row">
         <!-- Left section of the central page: starts-->
-        <div class="col-md-12">
-            {{ content }}
-        </div>
+
+        {{ content }}
         <!-- Left section of the central page: ends-->
     </div>
 
+    {% include latest-blog.html %}
     <div class="row">
         {% include bottom.html %}
     </div>
@@ -68,7 +72,6 @@ date=page.date
 <script>
     var element = $('#right-section')
     $.fn.followTo = function (pos) {
-        console.info(pos)
 
         var $this = this,
             $window = $(window);
@@ -93,6 +96,44 @@ date=page.date
         }
     };
     element.followTo(element.height());
+
+
+    /*---------------------------------------------*
+     * Menu Background Change
+     ---------------------------------------------*/
+
+    var windowWidth = $(window).width();
+    if (windowWidth > 757) {
+
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+                $('.navbar').fadeIn(200);
+                $('.navbar').addClass('top-menu-bg');
+
+            } else {
+
+                $('.navbar').removeClass('top-menu-bg');
+            }
+        });
+
+    }
+
+    /*---------------------------------------------*
+     * Scroll Up
+     ---------------------------------------------*/
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 600) {
+            $('.scrollup').fadeIn('slow');
+        } else {
+            $('.scrollup').fadeOut('slow');
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({scrollTop: 0}, 1000);
+        return false;
+    });
 </script>
 </body>
 

@@ -1,0 +1,26 @@
+<div class="slider-area">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"
+         data-interval="3000" data-wrap="false">
+        <!-- Indicators -->
+
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            {% for slide in {{site.data.site.carousal.slides.about}} %}
+            <div class="item {{slide.class}}">
+                {%
+                include carousals/slide.html
+                slide=slide
+                %}
+            </div>
+            {% endfor %}
+        </div>
+
+        </a>
+    </div>
+</div>
+
+

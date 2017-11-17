@@ -18,15 +18,15 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse ">
             <ul class="nav navbar-nav navbar-right">
-                <<!--li id="home" class="active">
+                <li id="homePage">
                     <a href="{{ site.baseurl }}/">
                         Home
-                    </a></li>-->
+                    </a></li>
                 <li id="services"><a href="{{ site.baseurl }}/services">Services</a></li>
                 <li id="technologies"><a href="{{ site.baseurl }}/technologies">Technologies</a></li>
                 <li id="blogs"><a href="{{ site.baseurl }}/blogs">Blogs</a></li>
                 <li id="about"><a href="{{ site.baseurl }}/about">About</a></li>
-                <!--<li id="contactUs"><a href="{{ site.baseurl }}/contactUs">Contact</a></li>-->
+                <li id="contactUs"><a href="{{ site.baseurl }}/contact-us">Contact Us</a></li>
             </ul>
         </div>
     </div>
@@ -43,6 +43,6 @@
     $(".nav li").removeClass("active");
     $("#" + relativeURL).addClass("active");
     if ($(".nav .active").length === 0) {
-        $("#home").addClass("active");
+        $("#homePage").addClass("active");
     }
 </script>

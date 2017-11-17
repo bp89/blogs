@@ -1,0 +1,75 @@
+---
+slides:
+  home:
+    - title: 'We build and manage disruptive web products and Internet-based businesses'
+      description: 'Product Engineering partner for Fortune 500 companies as well as Silicon Valley startups to build cloud-native products and applications'
+      viewMore: true
+      viewMoreLink: 'services'
+      class: active
+      imageName: 'banner-1.png'
+
+    - title: 'Customer experience lies at the center of every solution we develop'
+      description: 'We provide seamless customer experience across channels including web, mobile, tablet and TV through our UX led engineering'
+      viewMore: true
+      viewMoreLink: 'services'
+      imageName: 'banner-2.jpg'
+
+    - title: 'We digitally tranform businesses'
+      description: 'We transform businesses leveraging experience design, cutting-edge engineering and cloud experience'
+      viewMore: true
+      viewMoreLink: 'services'
+      imageName: 'banner-3.jpg'
+
+    - title: 'We digitally tranform businesses'
+      description: 'We transform businesses leveraging experience design, cutting-edge engineering and cloud experience'
+      viewMore: true
+      viewMoreLink: 'services'
+      imageName: 'banner-4.jpg'
+
+    - title: 'We collaborate, We  innovate'
+      description: 'We collaborate to understand the businesses and come up with innovative applications that leverage businesses'
+      viewMore: true
+      viewMoreLink: 'services'
+      imageName: 'banner-5.png'
+
+
+  services:
+    - title: 'Customer experience and satisfaction lies at the core of every solution we develop'
+      description: 'We provide seamless customer experience across channels including web, mobile and devops which ensures great compliance to user expectations'
+      class: active
+      imageName: 'banner-1.gif'
+
+  technologies:
+    - title: 'Technologies'
+      description: 'Product development done right, with breakthrough technologies and Agile processes'
+      imageName: 'banner-1.gif'
+      class: active
+
+  blogs:
+    - title: 'Blogs'
+      description: 'We love sharing and learning together'
+      class: active
+      imageName: 'banner-1.gif'
+
+  about:
+    - title: 'About Us'
+      description: 'An enthusiastic team of innovative minds willing to transform your business'
+      class: active
+      imageName: 'banner-1.jpg'
+
+  contact-us:
+    - title: 'Contact Us'
+      description: 'Connect with us and explore new possibilities with innovative and experienced team'
+      imageName: 'banner-1.jpg'
+      class: active
+
+  cms:
+    - title: 'Cloud Managed Services'
+      description: 'Trust our Cloud Managed Services, ensure your business in all aspects'
+      imageName: 'banner-1.png'
+      class: active
+  pe:
+    - title: 'Product Engineering'
+      description: 'We engineer your product to built best in class solutions'
+      imageName: 'banner-1.png'
+      class: active

@@ -4,6 +4,10 @@
 // IMPORTS
 @import "reset";
 @import "variables";
+@import "agency";
+@import "navbar";
+@import "carousal";
+@import "font-awesome";
 
 /**************/
 /* BASE RULES */
@@ -13,27 +17,6 @@ $banner-opacity: 0.9;
 $banner-height: 500px;
 $banner-width: 100%;
 $blur-depth: 3px;
-
-.banner-background-1 {
-  opacity: $banner-opacity;
-  background-image: url("images/carousal-images/banner-1.jpg");
-  height: $banner-height;
-  width: $banner-width;
-}
-
-.banner-background-2 {
-  opacity: $banner-opacity;
-  background-image: url("images/carousal-images/banner-2.jpg");
-  height: $banner-height;
-  width: $banner-width;
-}
-
-.banner-background-3 {
-  opacity: $banner-opacity;
-  background-image: url("images/carousal-images/banner-3.jpg");
-  height: $banner-height;
-  width: $banner-width;
-}
 
 table {
   display: table;
@@ -212,13 +195,14 @@ img {
 .post {
   background-color: white;
   padding-right: 10px;
+  padding-left: 10px;
 
   blockquote {
     margin: 2.8em .8em;
     border-left: 2px groove #1fff57;
     padding: 0.1em 1em;
     color: #54aca6;
-    font-size: 13px;
+    font-size: 15px;
 
   }
 
@@ -236,7 +220,7 @@ img {
     border-bottom: 1px solid;
   }
   .entry {
-    font-size: 13px;
+    font-size: 15px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 }
@@ -300,12 +284,6 @@ footer {
 
 }
 
-.navbar-blue {
-  background-color: #68a1ff;
-  border-color: #878bff;
-  color: black;
-}
-
 .menu-item {
   border-bottom: 1px groove #f8f2fb;
   padding-bottom: 5px;
@@ -335,14 +313,9 @@ footer {
   color: #8c8c8c;
 }
 
-.scroll-top {
-  position: fixed;
-  bottom: 10px;
-  right: 0;
-  background-color: #faebcc;
-}
-
 .page-heading {
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
   font-family: Tahoma;
   font-weight: bold;
@@ -402,7 +375,7 @@ footer {
 }
 
 .view-more-btn:hover {
-  border:1px solid #ff3d58;
+  border: 1px solid #ff3d58;
   background-color: #ff9c61;
   box-shadow: 3px 3px 5px #edae3e;
   text-shadow: #d0e9c6;
@@ -423,4 +396,126 @@ footer {
 
 .svg-icon:hover {
   opacity: 1;
+}
+
+.sections {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+section .subtitle h5 {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  font-family: 'roboto', sans-serif;
+}
+
+section .title-half h2 {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 300;
+  margin-bottom: 1.4rem;
+}
+
+section .subtitle-half h5 {
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.homepage-style {
+  padding-top: 150px;
+}
+
+.homepage-style .unique-apps h2 {
+  font-size: 50px ;
+  font-family: "Apple SD Gothic Neo";
+  line-height: 1.2;
+  color: #fcfcfc;
+  font-weight: 300;
+}
+.homepage-style .unique-apps h4 {
+  font-family: "Apple SD Gothic Neo";
+  line-height: 1.2;
+  color: #fcfcfc;
+  font-weight: 200;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+  background-color: #faebcc;
+  font-size: 10px;
+  font-weight: bold;
+  z-index: 100;
+}
+
+.breadcrumbs {
+  list-style: none;
+  border-radius: 4px;
+  margin-top:220px;
+}
+
+.breadcrumbs a {
+  color: #ffffff;
+}
+
+.breadcrumbs > li {
+  display: inline-block
+}
+
+.breadcrumbs > li + li:before {
+  padding: 0 5px;
+  color: #f4ffed;
+  content: "/\00a0"
+}
+
+.breadcrumbs > .active {
+  color: #f9faf8
+}
+
+#works-area {
+  width: 100%;
+  background: url(images/main-bg.png) repeat scroll 0 0;
+  overflow: hidden;
+}
+
+.heading {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.heading .title h4 {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  background: #464646;
+  color: #fff;
+  padding: 10px 60px;
+  display: inline;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
+  -moz-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
+  -ms-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
+  -o-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
+}
+
+.heading .title.arrow-right {
+  margin-top: -130px;
+}
+
+.heading .title.arrow-right img {
+  margin-top: 90px;
+  margin-left: -10px;
+}
+
+.heading .title.arrow-left {
+  margin-top: -130px;
+}
+
+.heading .title.arrow-left img {
+  margin-top: 90px;
+  margin-right: -10px;
 }

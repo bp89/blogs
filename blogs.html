@@ -6,7 +6,6 @@ title: Blogs
 <div class="posts container">
     {% assign items = "" %}
     {% for post in site.posts %}
-
         {% capture list_item %}
             {%
                 include blogListItem.html
@@ -15,13 +14,9 @@ title: Blogs
             %}
         {% endcapture %}
         {% assign items = items | append: list_item | append: "|||" %}
-
     {{list_item}}
     {% endfor %}
-
     {% assign items = items | split: "|||" | join: ',' %}
-
-
 </div>
 
 <script type="application/ld+json">
@@ -29,10 +24,10 @@ title: Blogs
 "@context": "http://schema.org",
  "@type": "Blog",
  "keywords": "software engineering agile refactoring javascript docker groovy java grails spring springboot jquery angular java8 GORM spring data lombok google guice",
- "url": "http://blogs.faadudeveloper.com",
+ "url": "http://www.craigecomputing.com",
  "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://blogs.faadudeveloper.com"
+    "@id": "http://www.craigecomputing.com"
   },
  "author": {
     "@type": "Person",
@@ -45,7 +40,5 @@ title: Blogs
     ]
   }
  }
-
-
 </script>
 

@@ -1,12 +1,13 @@
 <section id="services">
-    <div class="container">
+    <div class="container text-center">
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Services</h2>
-                <h3 class="section-subheading text-muted">We are an IT innovation organisation providing E2E
-                    solutions. We serve a better tomorrow by our by leveraging the user experience using our cutting
-                    edge engineering and automation.</h3>
+            <div class="heading">
+                <div class="title center arrow-left">
+                    <img class="hidden-xs" src="{{site.baseurl}}/images/arrow-down.png" alt="">
+                    <h4 class="">Services</h4>
+                </div>
             </div>
+
         </div>
 
         {% for service in {{site.data.site.allServices.services}} limit:1 offset:0 %}
@@ -21,7 +22,7 @@
                         {{item.description}}
                     </p>
                 </div>
-                <a href="{{item.relativeUrl}}" id="services_" rel="nofollow">
+                <a href="services/{{item.relativeUrl}}" id="services_" rel="nofollow">
                     <span class="cta">Read More</span>
                     </span>
                 </a>

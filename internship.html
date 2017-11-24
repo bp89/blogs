@@ -1,0 +1,42 @@
+---
+layout: site
+title: internship
+---
+{% include carousals/internship/carousal.html%}
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-heading"></div>
+            <div class="page-description">
+                Internship is very crucial for each and every Graduated student. It helps connecting the dots developed
+                during educational years.
+                Real life problems-solutions, process, organization, all phases of an application development and
+                business communication all learned together makes bright future of Computing and develops intelligence
+                and innovation in you.
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    {% for service in site.data.site.intern-programs.services %}
+    <div class="row">
+        {% for item in service.row %}
+        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 service">
+
+            <img src="{{site.baseurl}}/images/services/{{item.icon-url}}" class="service-image">
+            <h3 class="title">{{item.title}}</h3>
+            <div class="text">
+                <p>
+                    {{item.description}}
+                </p>
+            </div>
+            <a href="{{item.relativeUrl}}" id="services_" rel="nofollow">
+                <span class="cta">Read More</span>
+                </span>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>

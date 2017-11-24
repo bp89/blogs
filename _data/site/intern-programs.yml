@@ -1,0 +1,31 @@
+---
+services:
+  - title: 'Development'
+    row:
+      - title: 'Backend Engineering'
+        relativeUrl: 'cms'
+        icon-url: 'cms.png'
+        description: 'Java, PHP, Spring, Hibernate,  '
+      - title: 'Front-end Engineering '
+        icon-url: 'pe.png'
+        relativeUrl: 'product-engineering'
+        description: 'React, Redux,Angular, Jekyll, Liquid, Mocha, Chai, jasmine, Karma, Reactive Programming, javascript,HTML,CSS etc'
+      - title: 'Product Engineering'
+        icon-url: 'devops.png'
+        relativeUrl: 'devops'
+        description: 'Learn to develop complete products e.g. SAAS, PAAS, Web Services, SOA, Design Patterns, SOLID, Devops, Middleware'
+
+  - title: 'Designing'
+    row:
+      - title: 'Devops Engineering'
+        relativeUrl: 'backend-engineering'
+        icon-url: 'be6.png'
+        description: 'Docker, Ansible, Jenkins, Bash scripts etc'
+      - title: 'Quality Assurance  '
+        relativeUrl: 'blog-analytics'
+        icon-url: 'fe.png'
+        description: 'Manual testing, Automation testing, backend testing, front-end testing, E2E testing, SEO etc'
+      - title: 'SEO'
+        relativeUrl: 'seo'
+        icon-url: 'seo2.png'
+        description: 'Searchability and market visibility enhancement of web applications'

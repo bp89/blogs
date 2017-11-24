@@ -73,3 +73,8 @@ slides:
       description: 'We engineer your product to built best in class solutions'
       imageName: 'banner-1.png'
       class: active
+  internship:
+    - title: 'Our unique Internship programs boosts your skills in all aspects'
+      description: 'We avail internship programs designed specially by the most experienced tech geeks with us. Specially articulated programs leverage your skills in all aspects.'
+      imageName: 'banner-1.gif'
+      class: active

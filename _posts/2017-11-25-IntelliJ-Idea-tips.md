@@ -28,7 +28,7 @@ you will realize the improvement.
 
 To help you remember keys quickly use `IDea Key Promoter` . Whenever you will use mouse operation, it will show a pop up showing the shortcut so that you remember it for next time. See example below:-
 
-![Key Promoter]({{site.baseurl }}/images/2017-11-25-IntelliJ-Idea-tips/key-promoter.png)
+   ![Key Promoter]({{site.baseurl }}/images/2017-11-25-IntelliJ-Idea-tips/key-promoter.png)
 
 2. Use code generators rather than writing the whole code by hand. After all you have already practiced it all a lot in early times.
 

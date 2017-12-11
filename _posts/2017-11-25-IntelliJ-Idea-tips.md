@@ -30,6 +30,7 @@ To help you remember keys quickly use `IDea Key Promoter` . Whenever you will us
 
    ![Key Promoter]({{site.baseurl }}/images/2017-11-25-IntelliJ-Idea-tips/key-promoter.png)
 
+{:start="2"}
 2. Use code generators rather than writing the whole code by hand. After all you have already practiced it all a lot in early times.
 
 In Idea you could right click anywhere on a file and click on `Generate` to generate code.
@@ -40,6 +41,8 @@ This will show options as below:-
 
 ![Generate Options]({{site.baseurl }}/images/2017-11-25-IntelliJ-Idea-tips/generate-options.png)
 
+
+{:start="3"}
 3. Use `Live templates` so that you don't have to type long statements repeatedly by hands. e.g. if you have to 
 type `System.out.println` in idea you could use `sout` and press `CTRL + space`.
 
@@ -47,6 +50,7 @@ Below is a screenshot of Idea live templates. You could start remembering these 
 
 ![Live Templates]({{site.baseurl }}/images/2017-11-25-IntelliJ-Idea-tips/live-template.png)
 
+{:start="4"}
 4. Try not to switch between different task windows as this diverts you from original goal i.e. develop better software.
 
 So, in Intelli J Idea, use:-
@@ -55,25 +59,28 @@ So, in Intelli J Idea, use:-
 
 ![Live Template]({{site.baseurl }}/images/2017-11-25-IntelliJ-Idea-tips/terminal.png)
 
+{:start="2"}
 2. it's own database support. Beautiful query evaluation and CRUDs are provided.
 
 ![Database support]({{site.baseurl }}/images/2017-11-25-IntelliJ-Idea-tips/database.png)
 
+{:start="3"}
 3. it's version control feature - all-in-one place makes it very comfortable to focus on priorities than verbose tasks.
 
 ![Version Control]({{site.baseurl }}/images/2017-11-25-IntelliJ-Idea-tips/version-control.png)
 
+
+{:start="4"}
 4. Inbuilt support for  **Build Tools** :-
 
 ![Build Tool]({{site.baseurl }}/images/2017-11-25-IntelliJ-Idea-tips/maven.png)
 
 You could explore more in detail but above are some of frequently used idea features.
 
+{:start="5"}
 5. Even inbuilt browsers are coming with IDEs so that you don't need to open seperate browser.
 
-
 6. Use IDE's in-built Run and Debug configuration effectively. It allows lots of features and debugging is very easy when application is run from IDE.
-
 
 7. Use IDEs navigation support effectively. e.g. Idea provides lots of shortcuts and options to navigate between files. It reduces navigation time exceptionally.
 

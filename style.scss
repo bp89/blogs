@@ -8,7 +8,6 @@
 @import "navbar";
 @import "carousal";
 @import "font-awesome";
-
 /**************/
 /* BASE RULES */
 /**************/
@@ -18,11 +17,11 @@ $banner-height: 500px;
 $banner-width: 100%;
 $blur-depth: 3px;
 
-
-.img-fluid{
-  height:280px;
+.img-fluid {
+  height: 280px;
   width: 340px;
 }
+
 table {
   display: table;
   border-collapse: separate;
@@ -201,6 +200,7 @@ img {
   background-color: white;
   padding-right: 10px;
   padding-left: 10px;
+  font-family: 'Raleway', sans-serif;
 
   blockquote {
     margin: 2.8em .8em;
@@ -227,6 +227,36 @@ img {
   .entry {
     font-size: 15px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  ol
+  {
+    list-style: decimal;
+    margin:0px;
+    padding-left:0px;
+    line-height: 150%;
+  }
+
+  ol li
+  {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 1em;
+  }
+
+  ul
+  {
+    list-style: circle;
+    margin:0;
+    padding-left:30px;
+  }
+
+  ul li
+  {
+    margin: 0px;
+    padding: 0px;
+    text-indent: 0.5em;
+    margin-left: -0.5em;
   }
 }
 
@@ -264,6 +294,10 @@ footer {
   width: 100%;
   line-height: 31px;
   text-align: right;
+}
+
+#blog-content {
+  background-color: #f6f5f2;
 }
 
 .left-content {
@@ -394,7 +428,7 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 
 @import "svg-icons";
-@import "highlights";
+
 .svg-icon {
   opacity: 0.6;
 }
@@ -433,12 +467,13 @@ section .subtitle-half h5 {
 }
 
 .homepage-style .unique-apps h2 {
-  font-size: 50px ;
+  font-size: 50px;
   font-family: "Apple SD Gothic Neo";
   line-height: 1.2;
   color: #fcfcfc;
   font-weight: 300;
 }
+
 .homepage-style .unique-apps h4 {
   font-family: "Apple SD Gothic Neo";
   line-height: 1.2;
@@ -459,7 +494,7 @@ section .subtitle-half h5 {
 .breadcrumbs {
   list-style: none;
   border-radius: 4px;
-  margin-top:220px;
+  margin-top: 220px;
 }
 
 .breadcrumbs a {

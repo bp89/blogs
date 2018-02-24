@@ -7,7 +7,9 @@ comments: true
 ---
 
 Hope you a little bit familiar with how junit works. How you write a test case using it. Given that as a developer you should definitely have faced situations
-where you felt like repeating something inside the test cases. If you have felt that and also felt you are cluttering your test file with lots of boiler plate code
+where you felt like repeating something inside the test cases. 
+
+If you have felt that and also felt you are cluttering your test file with lots of boiler plate code
 and loosing focus from actually testing and giving upto writing a test case.
 
 Think about you just have a matrix of data and you are just writing multiple test cases for covering this matrix. Well junit saves you by giving parametrized

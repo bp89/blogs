@@ -47,7 +47,7 @@ url: 'https://bp89.github.io/craigecomputing'
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/craigecomputing"
+baseurl: "https://github.com/bp89/craigecomputing"
 port:    4000
 
 paginate_path: /page:num
